@@ -1,8 +1,10 @@
 import Head from "next/head";
 import AboutUs from "../components/AboutUs";
 import Activities from "../components/Activities";
+import FoundingMembers from "../components/FoundingMembers";
 import Goals from "../components/Goals";
 import Hero from "../components/Hero";
+import OtherMembers from "../components/OtherMembers";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
           <Activities />
         </div>
         <AboutUs />
+        <FoundingMembers />
+        <OtherMembers />
       </main>
       <footer>FOOTER</footer>
     </>
