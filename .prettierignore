@@ -1,0 +1,9 @@
+.next
+.vscode
+styles/
+postcss.config.js
+tailwind.config.js
+next.config.js
+.eslintrc.json
+.prettier.json
+.gitignore
