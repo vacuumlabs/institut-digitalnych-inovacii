@@ -1,4 +1,6 @@
 import Head from "next/head";
+
+import Header from "../components/Header";
 import AboutUs from "../components/AboutUs";
 import Activities from "../components/Activities";
 import FoundingMembers from "../components/FoundingMembers";
@@ -14,18 +16,22 @@ export default function Home() {
         <meta name="description" content="Some description" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="h-[78px]">HEADER</header>
+      <Header />
       <main>
         <Hero />
-        <Goals />
-        <div className="bg-brand-light">
+        <div id="goals">
+          <Goals />
+        </div>
+        <div className="bg-brand-light" id="activities">
           <Activities />
         </div>
-        <AboutUs />
+        <div id="about-us">
+          <AboutUs />
+        </div>
         <FoundingMembers />
         <OtherMembers />
       </main>
-      <footer>FOOTER</footer>
+      <footer id="contact">FOOTER</footer>
     </>
   );
 }
