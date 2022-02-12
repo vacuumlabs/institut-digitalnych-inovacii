@@ -15,7 +15,7 @@ const AboutUs = () => {
   return (
     <div className="py-8">
       <div className="container mx-auto">
-        <h2 className="brand-underline text-center font-nasa text-title-small uppercase">
+        <h2 className="brand-underline font-nasa text-title-small text-center uppercase">
           Kto sme?
         </h2>
         <div className="mt-10 space-y-6">
@@ -31,6 +31,13 @@ const AboutUs = () => {
             icon="/assets/icon-about-3.svg"
             text="Naším cieľom je presadzovanie politík, ktoré sú kľúčové pre lepšie fungovanie technologických firiem a inovačného ekosystému na Slovensku. Zároveň veríme, že tieto zmeny pomôžu modernizovať aj tradičnejšie odvetvia.   "
           />
+        </div>
+        <div className="mt-20">
+          <div className="bg-polygon mx-auto flex aspect-square max-w-[320px] items-center justify-center bg-contain bg-center bg-no-repeat p-6">
+            <h3 className="font-nasa text-brand text-title-small text-center">
+              Sme hlasom digitálnej transformácie Slovenska
+            </h3>
+          </div>
         </div>
       </div>
     </div>

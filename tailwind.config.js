@@ -33,6 +33,9 @@ module.exports = {
           sans: ['Roboto', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
           nasa: ['Nasalization', 'Roboto', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
       },
+      backgroundImage: {
+        'polygon': "url('/assets/polygon.svg')"
+      }
     },
   },
   plugins: [
