@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: 'Nasalization';
+        font-weight: 400;
+        src: url('/fonts/NasalizationRg-Regular.woff2') format('woff2'),
+        url('/fonts/NasalizationRg-Regular.woff') format('woff');
+    }
+
+    body {
+        @apply text-default;
+        @apply text-text;
+    }
+}
+
+@layer utilities {
+    .brand-shadow {
+        box-shadow: 0px 4.32789px 21.6394px rgba(50, 139, 242, 0.25);
+    }
+    .brand-underline {
+        @apply relative;
+        @apply mb-8;
+    }
+    .brand-underline::after {
+        content: '';
+        @apply absolute;
+        @apply left-0;
+        @apply right-0;
+        @apply bottom-[-12px];
+        @apply mt-1;
+        @apply w-[40px];
+        @apply h-[2px];
+        @apply bg-brand;
+        @apply block;
+        @apply mx-auto;
+    }
+}
