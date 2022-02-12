@@ -1,13 +1,13 @@
 import Logos from "./Logos";
 
 const logos = [
-  "logo-fumbi",
-  "logo-grindsone",
   "logo-sudolabs",
   "logo-websupport",
+  "logo-grindsone",
+  "logo-fumbi",
   "logo-superscale",
-  "logo-trama",
   "logo-sparring",
+  "logo-trama",
 ];
 
 const OtherMembers = () => {

@@ -1,20 +1,20 @@
 import Logos from "./Logos";
 
 const logos = [
+  "logo-vacuumgroup",
   "logo-civitta",
-  "logo-ajtyvit",
   "logo-fintechclub",
-  "logo-ftrnw",
-  "logo-gamedays",
-  "logo-hubhub",
-  "logo-neulogy",
+  "logo-thespot",
   "logo-perrytalents",
   "logo-sapie",
   "logo-slovakamericanfoundation",
+  "logo-ftrnw",
+  "logo-hubhub",
+  "logo-neulogy",
   "logo-sudoacademy",
-  "logo-thespot",
-  "logo-vacuumgroup",
+  "logo-gamedays",
   "logo-visionventures",
+  "logo-ajtyvit",
 ];
 
 const FoundingMembers = () => {

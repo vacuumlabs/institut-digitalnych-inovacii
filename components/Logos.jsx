@@ -9,7 +9,7 @@ const Logos = ({ logos }) => {
             src={`/assets/${logo}.png`}
             key={logo}
             alt=""
-            className="max-h-[40px] max-w-full"
+            className="max-h-[60px] max-w-full"
           />
         ))}
       </div>
