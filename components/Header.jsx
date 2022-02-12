@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <header className="py-3">
-      <div className="container relative z-[2] mx-auto flex items-center justify-between">
+      <div className="container relative z-20 mx-auto flex items-center justify-between">
         <img
           src="/assets/logo.png"
           className="h-[52px] w-[110px]"
@@ -49,7 +49,7 @@ const Header = () => {
         className={classNames(
           menuOpen ? "visible" : "hidden",
           "fixed",
-          "z-[1]",
+          "z-10",
           "w-full",
           "h-full",
           "top-0",
