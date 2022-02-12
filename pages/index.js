@@ -8,6 +8,7 @@ import Goals from "../components/Goals";
 import Hero from "../components/Hero";
 import OtherMembers from "../components/OtherMembers";
 import Board from "../components/Board";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -33,7 +34,9 @@ export default function Home() {
         <OtherMembers />
         <Board />
       </main>
-      <footer id="contact">FOOTER</footer>
+      <div id="contact">
+        <Footer />
+      </div>
     </>
   );
 }

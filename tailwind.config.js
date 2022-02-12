@@ -11,7 +11,8 @@ module.exports = {
         light: '#F2F8FF',
         DEFAULT: '#328BF2',
       },
-      white: '#FFFFFF'
+      white: '#FFFFFF',
+      gray: '#E8E8E8'
     },
     fontSize: {
       'title-large': '80px',
