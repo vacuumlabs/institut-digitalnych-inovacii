@@ -39,5 +39,20 @@
         @apply bg-brand;
         @apply block;
         @apply mx-auto;
+        @apply lg:right-auto;
+    }
+    .brand-underline--centered-lg::after {
+        @apply lg:right-0;
+    }
+    .with-backdrop::before {
+        @apply content-[''];
+        @apply bg-brand-light;
+        @apply absolute;
+        @apply w-full;
+        @apply h-[400px];
+        @apply right-0;
+        @apply left-0;
+        @apply top-[200px];
+        @apply lg:top-[300px];
     }
 }

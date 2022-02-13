@@ -2,8 +2,8 @@ const Footer = () => {
   return (
     <footer className="pt-12 pb-8">
       <div className="container mx-auto">
-        <div className="border-t-gray block w-full space-y-8 border-t-2 text-center">
-          <p className="pt-8">
+        <div className="border-t-gray block w-full space-y-8 border-t-2 text-center lg:flex lg:items-start lg:justify-between lg:space-y-0 lg:pt-8 lg:text-left">
+          <p className="pt-8 lg:pt-0">
             <b className="mb-2 inline-block">Kontakt</b>
             <br />
             SKY PARK Offices

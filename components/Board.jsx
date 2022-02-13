@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import Headline from "./Headline";
 
 const BoardTile = ({ imgURL, name, position, whiteName = false }) => {
   return (
@@ -27,12 +28,10 @@ const BoardTile = ({ imgURL, name, position, whiteName = false }) => {
 
 const Board = () => {
   return (
-    <div className="before:bg-default relative py-8 before:absolute before:right-0 before:top-[200px] before:left-0 before:h-[400px] before:w-full before:content-['']">
+    <div className="with-backdrop before:bg-default relative py-8 lg:py-28">
       <div className="container relative z-10 mx-auto">
-        <h2 className="brand-underline font-nasa text-title-small text-center uppercase">
-          Správna rada
-        </h2>
-        <div className="mb-20 flex justify-center space-x-6">
+        <Headline text="Správna rada" alignCenterLg />
+        <div className="mb-20 flex justify-center space-x-6 lg:space-x-12">
           <BoardTile
             whiteName
             imgURL="https://dummyimage.com/400x400"
@@ -46,9 +45,9 @@ const Board = () => {
             position="Partner, CIVITTA"
           />
         </div>
-        <h2 className="brand-underline font-nasa text-title-small text-center uppercase text-white">
-          Projektový manažment
-        </h2>
+        <span className="text-white">
+          <Headline text="Projektový manažment" alignCenterLg />
+        </span>
         <div className="flex items-center justify-center">
           <BoardTile
             imgURL="https://dummyimage.com/400x400"

@@ -1,10 +1,17 @@
+import Headline from "./Headline";
 import ShadowTile from "./ShadowTile";
 
-const ActivityTile = ({ text, linkText, linkURL, brandBg = false }) => {
+const ActivityTile = ({
+  text,
+  linkText,
+  linkURL,
+  brandBg = false,
+  classes = "",
+}) => {
   return (
-    <ShadowTile brandBg={brandBg}>
-      <div className="space-y-4 py-10 px-8 text-center">
-        <h3 className="font-bold">{text}</h3>
+    <ShadowTile brandBg={brandBg} classes={classes}>
+      <div className="space-y-4 py-10 px-8 text-center lg:py-20 lg:px-4">
+        <h3 className="lg:text-title-small font-bold">{text}</h3>
         <span className="mx-auto block h-[1px] w-[40px] bg-current" />
         <a
           href={linkURL}
@@ -20,22 +27,22 @@ const ActivityTile = ({ text, linkText, linkURL, brandBg = false }) => {
 
 const Activities = () => {
   return (
-    <div className="py-10">
+    <div className="py-8 lg:py-28">
       <div className="container mx-auto">
-        <h2 className="brand-underline font-nasa text-title-small text-center uppercase">
-          Aktivity
-        </h2>
-        <div className="mt-4 space-y-5 px-10">
+        <Headline text="Aktivity" />
+        <div className="mt-4 space-y-5 px-10 lg:mt-16 lg:flex lg:space-y-0 lg:space-x-10 lg:px-0">
           <ActivityTile
             text="“Politiky pre lepší digitálny ekosystém 2022”"
             linkText="policy paper (PDF)"
             linkURL="#"
+            classes="lg:w-3/12"
           />
           <ActivityTile
             brandBg
             text="Konzultácie Národnej stratégie pre výskum, vývoj a inovácie"
             linkText="(PDF)"
             linkURL="#"
+            classes="lg:w-3/12"
           />
         </div>
       </div>
