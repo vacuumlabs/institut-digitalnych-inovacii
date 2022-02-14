@@ -31,4 +31,10 @@ export const homepageData = {
       },
     },
   },
+  hero: {
+    title: "Za inovatívne Slovensko",
+    subtitle:
+      "Veríme, že Slovensko má potenciál stať sa Estónskom či Fínskom strednej Európy.",
+    imageUrl: "/assets/hero.svg",
+  },
 };
