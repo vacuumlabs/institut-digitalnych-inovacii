@@ -40,7 +40,7 @@ const AboutUs = () => {
           </div>
           <div className="mt-20 lg:mt-0 lg:w-4/12 xl:w-2/5">
             <div className="bg-polygon mx-auto flex aspect-square max-w-[320px] items-center justify-center bg-contain bg-center bg-no-repeat p-6 lg:max-w-full">
-              <h3 className="font-nasa text-brand text-title-small xl:text-title text-center">
+              <h3 className="font-nasa text-brand text-text-large sm:text-title-small xl:text-title text-center">
                 Sme hlasom digitálnej transformácie Slovenska
               </h3>
             </div>

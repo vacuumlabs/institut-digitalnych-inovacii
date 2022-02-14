@@ -5,7 +5,7 @@ const BoardTile = ({ imgURL, name, position, whiteName = false }) => {
   return (
     <div className="text-center">
       <img
-        className="h-auto max-h-[170px] w-full max-w-[170px] rounded-[30px] rounded-tl-none"
+        className="mx-auto h-auto max-h-[170px] w-full max-w-[170px] rounded-[30px] rounded-tl-none"
         src={imgURL}
         alt={name}
       />
@@ -28,10 +28,10 @@ const BoardTile = ({ imgURL, name, position, whiteName = false }) => {
 
 const Board = () => {
   return (
-    <div className="with-backdrop before:bg-default relative py-8 before:top-[200px] before:md:top-[185px] lg:py-20 before:lg:top-[275px] xl:py-28 before:xl:top-[300px]">
+    <div className="with-backdrop before:bg-default relative py-8 before:top-[200px] before:h-[675px] sm:before:h-[380px] before:md:top-[185px] lg:py-20 before:lg:top-[275px] xl:py-28 before:xl:top-[300px]">
       <div className="container relative z-10 mx-auto">
         <Headline text="Správna rada" alignCenterLg />
-        <div className="mb-20 flex justify-center space-x-6 lg:space-x-12">
+        <div className="mb-20 justify-center space-y-6 sm:flex sm:space-x-6 sm:space-y-0 lg:space-x-12">
           <BoardTile
             whiteName
             imgURL="https://dummyimage.com/400x400"
