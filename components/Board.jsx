@@ -51,7 +51,7 @@ const BoardTile = ({
 
 const Board = () => {
   return (
-    <div className="with-backdrop before:bg-default relative py-8 before:top-[200px] before:h-[675px] sm:before:h-[380px] before:md:top-[185px] lg:py-20 before:lg:top-[275px] xl:py-28 before:xl:top-[300px]">
+    <div className="with-backdrop before:bg-default relative py-8 before:top-[200px] before:h-[675px] sm:before:h-[380px] before:md:top-[185px] lg:py-20 before:lg:top-[275px] before:lg:h-[415px] xl:py-28 before:xl:top-[300px]">
       <div className="container relative z-10 mx-auto">
         <Headline text={homepageData.board.mainTitle} alignCenterLg />
         <div className="mb-20 justify-center space-y-6 sm:flex sm:space-x-6 sm:space-y-0 lg:space-x-12">
