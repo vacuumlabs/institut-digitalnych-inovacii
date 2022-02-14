@@ -10,11 +10,11 @@ const Header = () => {
   }, [menuOpen]);
 
   return (
-    <header className="py-3">
-      <div className="container relative z-20 mx-auto flex items-center justify-between">
+    <header>
+      <div className="container relative z-20 mx-auto flex h-[78px] items-center justify-between lg:h-[88px]">
         <img
-          src="/assets/logo.png"
-          className="h-[52px] w-[110px]"
+          src="/assets/logo.svg"
+          className="h-[31px] w-[110px] lg:h-[39px] lg:w-[140px]"
           alt="IDI logo"
         />
         <nav className="hidden lg:block">
