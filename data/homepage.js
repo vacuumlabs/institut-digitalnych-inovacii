@@ -72,4 +72,22 @@ export const homepageData = {
       },
     ],
   },
+  aboutUs: {
+    title: "Kto sme?",
+    aboutUtItems: [
+      {
+        icon: "/assets/icon-about-1.svg",
+        text: "Sme skupina podnikateľov a inovátorov, ktorým záleží na budúcnosti Slovenska v dobe digitálnej.",
+      },
+      {
+        icon: "/assets/icon-about-2.svg",
+        text: "Preto sme založili túto nezávislú občiansku platformu, ktorá má slúžiť na presadzovanie politík, ktoré sú kľúčové pre lepšie fungovanie inovačného ekosystému.",
+      },
+      {
+        icon: "/assets/icon-about-3.svg",
+        text: "Ak chceme ostať konkurencieschopní, nemôžeme strácať čas. Nutne potrebujeme nový ekonomický model na základe inovácií a vysokej pridanej hodnoty. Veríme, že tieto zmeny pomôžu modernizovať aj tradičnejšie odvetvia.",
+      },
+    ],
+    polygonTitle: "Sme hlasom digitálnej transformácie Slovenska",
+  },
 };
