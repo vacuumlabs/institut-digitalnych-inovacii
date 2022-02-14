@@ -1,14 +1,35 @@
 import classNames from "classnames";
 import Headline from "./Headline";
 
-const BoardTile = ({ imgURL, name, position, whiteName = false }) => {
+const BoardTile = ({
+  imgURL,
+  name,
+  position,
+  whiteName = false,
+  linkedInUrl,
+}) => {
   return (
-    <div className="text-center">
-      <img
-        className="mx-auto h-auto max-h-[170px] w-full max-w-[170px] rounded-[30px] rounded-tl-none"
-        src={imgURL}
-        alt={name}
-      />
+    <div className="group text-center">
+      <div className="relative mx-auto max-h-[170px] max-w-[170px]">
+        <div className="bg-brand absolute left-0 right-0 top-0 bottom-0 z-[10] hidden h-full w-full items-center justify-center rounded-[30px] rounded-tl-none bg-opacity-80 text-white group-hover:flex">
+          <a
+            href={linkedInUrl}
+            className="flex items-center justify-center space-x-2"
+          >
+            <img
+              src="/assets/linkedin-white.svg"
+              alt=""
+              className="h-[20px] w-[20px]"
+            />
+            <span className="font-nasa text-text-small">LinkedIn</span>
+          </a>
+        </div>
+        <img
+          className="h-auto w-full rounded-[30px] rounded-tl-none"
+          src={imgURL}
+          alt={name}
+        />
+      </div>
       <h3
         className={classNames(
           "font-nasa",
@@ -37,12 +58,14 @@ const Board = () => {
             imgURL="https://dummyimage.com/400x400"
             name="Marián Porvažník"
             position="CEO, Vacuum Group"
+            linkedInUrl="#"
           />
           <BoardTile
             whiteName
             imgURL="https://dummyimage.com/400x400"
             name="Peter Kolesár"
             position="Partner, CIVITTA"
+            linkedInUrl="#"
           />
         </div>
         <span className="text-white">
@@ -52,6 +75,7 @@ const Board = () => {
           <BoardTile
             imgURL="https://dummyimage.com/400x400"
             name="Zuzana Pisoň"
+            linkedInUrl="#"
           />
         </div>
       </div>
