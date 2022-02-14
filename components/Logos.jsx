@@ -6,9 +6,9 @@ const Logos = ({ logos }) => {
       <div className="grid grid-cols-2 items-center justify-items-center gap-10 p-6 sm:p-10 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7">
         {logos.map((logo) => (
           <img
-            src={`/assets/${logo}.png`}
-            key={logo}
-            alt=""
+            src={`/assets/${logo.imageUrl}.png`}
+            key={logo.imageUrl}
+            alt={`Logo ${logo.name}`}
             className="max-h-[60px] max-w-full"
           />
         ))}
