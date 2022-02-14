@@ -90,4 +90,100 @@ export const homepageData = {
     ],
     polygonTitle: "Sme hlasom digitálnej transformácie Slovenska",
   },
+  members: {
+    foundingMembers: {
+      title: "Zakladajúci členovia",
+      logos: [
+        {
+          imageUrl: "logo-vacuumgroup",
+          name: "Vacuumgroup",
+        },
+        {
+          imageUrl: "logo-civitta",
+          name: "Civitta",
+        },
+        {
+          imageUrl: "logo-fintechclub",
+          name: "FintechHubSlovakia",
+        },
+        {
+          imageUrl: "logo-thespot",
+          name: "The Spot by vacuum",
+        },
+        {
+          imageUrl: "logo-perrytalents",
+          name: "PerryTalens",
+        },
+        {
+          imageUrl: "logo-sapie",
+          name: "Sapie",
+        },
+        {
+          imageUrl: "logo-slovakamericanfoundation",
+          name: "Slovak American Foundation",
+        },
+        {
+          imageUrl: "logo-ftrnw",
+          name: "FRTNW",
+        },
+        {
+          imageUrl: "logo-hubhub",
+          name: "HubHub",
+        },
+        {
+          imageUrl: "logo-neulogy",
+          name: "Neulogy",
+        },
+        {
+          imageUrl: "logo-sudoacademy",
+          name: "SudoAcademy",
+        },
+        {
+          imageUrl: "logo-gamedays",
+          name: "GameDays",
+        },
+        {
+          imageUrl: "logo-visionventures",
+          name: "Vision Ventures",
+        },
+        {
+          imageUrl: "logo-ajtyvit",
+          name: "Aj ty v IT",
+        },
+      ],
+    },
+    otherMembers: {
+      title: "Ďalší členovia",
+      logos: [
+        {
+          imageUrl: "logo-sudolabs",
+          name: "Sudolabs",
+        },
+        {
+          imageUrl: "logo-websupport",
+          name: "Websupport",
+        },
+        {
+          imageUrl: "logo-grindsone",
+          name: "GrindStone",
+        },
+        {
+          imageUrl: "logo-fumbi",
+          name: "Fumbi",
+        },
+        {
+          imageUrl: "logo-superscale",
+          name: "Superscale",
+        },
+        {
+          imageUrl: "logo-sparring",
+          name: "Sparring",
+        },
+        {
+          imageUrl: "logo-trama",
+          name: "Trama",
+        },
+      ],
+    },
+  },
 };
