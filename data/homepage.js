@@ -212,4 +212,32 @@ export const homepageData = {
       },
     ],
   },
+  footer: {
+    contactDetails: {
+      title: "Kontakt",
+      address: "SKY PARK Offices \n Bottova 2622/2 \n 811 09 Bratislava",
+    },
+    phone: {
+      raw: "+421910324516",
+      pretty: "+421 910 324 516",
+    },
+    email: "info@idi.sk",
+    facebookUrl: "#",
+    linkedInUrl: "#",
+    links: [
+      {
+        label: "legal notice",
+        url: "#",
+        openInNewTab: true,
+      },
+      {
+        label: "privacy policy",
+        url: "#",
+      },
+      {
+        label: "contact",
+        url: "#",
+      },
+    ],
+  },
 };
