@@ -3,10 +3,9 @@ import Head from "next/head";
 import Header from "../components/Header";
 import AboutUs from "../components/AboutUs";
 import Activities from "../components/Activities";
-import FoundingMembers from "../components/FoundingMembers";
+import Members from "../components/Members";
 import Goals from "../components/Goals";
 import Hero from "../components/Hero";
-import OtherMembers from "../components/OtherMembers";
 import Board from "../components/Board";
 import Footer from "../components/Footer";
 
@@ -30,8 +29,7 @@ export default function Home() {
         <div id="about-us">
           <AboutUs />
         </div>
-        <FoundingMembers />
-        <OtherMembers />
+        <Members />
         <Board />
       </main>
       <div id="contact">

@@ -15,9 +15,11 @@ module.exports = {
       gray: '#E8E8E8'
     },
     fontSize: {
-      'title-large': '80px',
+      'title-large': ['80px', '96px'],
+      'title-larger': ['72px', '80px'],
       'title': '48px',
       'title-small': '28px',
+      'text-large': '20px',
       'text-larger': '18px',
       'text': '16px',
       'text-small': '14px'
@@ -25,7 +27,7 @@ module.exports = {
     screens: {
       sm: '414px',
       md: '768px',
-      lg: '1140px',
+      lg: '1024px',
       xl: '1600px',
     },
     extend: {
@@ -45,8 +47,10 @@ module.exports = {
           maxWidth: '100%',
           paddingLeft: '24px',
           paddingRight: '24px',
-          '@screen xl': {
+          '@screen lg': {
             maxWidth: '1440px',
+            paddingLeft: '64px',
+            paddingRight: '64px',
           },
         }
       });

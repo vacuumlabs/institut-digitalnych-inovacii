@@ -35,8 +35,22 @@ const Header = () => {
           className="h-[52px] w-[110px]"
           alt="IDI logo"
         />
+        <nav className="hidden lg:block">
+          <ul className="flex items-center space-x-10">
+            {navLinks.map((link, index) => (
+              <li key={index}>
+                <a
+                  href={link.url}
+                  className="font-nasa font-normal hover:underline"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
         <button
-          className="space-y-2"
+          className="space-y-2 lg:hidden"
           aria-label="open menu"
           onClick={() => setMenuOpen(!menuOpen)}
         >
@@ -47,6 +61,7 @@ const Header = () => {
       </div>
       <div
         className={classNames(
+          "lg:hidden",
           menuOpen ? "visible" : "hidden",
           "fixed",
           "z-10",
