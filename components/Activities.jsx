@@ -10,19 +10,21 @@ const ActivityTile = ({
   classes = "",
 }) => {
   return (
-    <ShadowTile brandBg={brandBg} classes={classes}>
-      <div className="space-y-4 py-6 px-6 text-center sm:py-10 sm:px-8 lg:py-20 lg:px-4">
-        <h3 className="lg:text-title-small font-bold">{text}</h3>
-        <span className="mx-auto block h-[1px] w-[40px] bg-current" />
-        <a
-          href={linkURL}
-          target="_blank"
-          className="text-small inline-block hover:underline"
-        >
-          {linkText}
-        </a>
-      </div>
-    </ShadowTile>
+    <article className={classes}>
+      <ShadowTile brandBg={brandBg}>
+        <div className="space-y-4 py-6 px-6 text-center sm:py-10 sm:px-8 lg:py-20 lg:px-4">
+          <h3 className="lg:text-title-small font-bold">{text}</h3>
+          <span className="mx-auto block h-[1px] w-[40px] bg-current" />
+          <a
+            href={linkURL}
+            target="_blank"
+            className="text-small inline-block hover:underline"
+          >
+            {linkText}
+          </a>
+        </div>
+      </ShadowTile>
+    </article>
   );
 };
 
