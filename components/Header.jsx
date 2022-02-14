@@ -18,7 +18,7 @@ const Header = () => {
           alt="IDI logo"
         />
         <nav className="hidden lg:block">
-          <ul className="flex items-center space-x-10">
+          <ul className="flex items-center space-x-6 xl:space-x-10">
             {homepageData.nav.links.map((link) => (
               <li key={link.url}>
                 <a
