@@ -57,4 +57,19 @@ export const homepageData = {
       },
     ],
   },
+  activities: {
+    title: "Aktivity",
+    activityItems: [
+      {
+        text: "“Politiky pre lepší digitálny ekosystém 2022”",
+        linkText: "policy paper (PDF)",
+        linkURL: "#",
+      },
+      {
+        text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
+        linkText: "(PDF)",
+        linkURL: "#",
+      },
+    ],
+  },
 };
