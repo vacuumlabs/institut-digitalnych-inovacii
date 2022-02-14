@@ -1,36 +1,6 @@
 import classNames from "classnames";
 import { useEffect, useState } from "react";
-
-const navLinks = [
-  {
-    label: "Naše ciele",
-    url: "#goals",
-  },
-  {
-    label: "Aktivity",
-    url: "#activities",
-  },
-  {
-    label: "Kto sme",
-    url: "#about-us",
-  },
-  {
-    label: "Kontakt",
-    url: "#contact",
-  },
-];
-
-const dennikNLink = {
-  logo: "/assets/dennik-n.svg",
-  url: "#",
-  label: "Denník N",
-};
-
-const smeBlogLink = {
-  logo: "/assets/sme-blog.svg",
-  url: "#",
-  label: "SME blog",
-};
+import { homepageData } from "../data/homepage";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -49,7 +19,7 @@ const Header = () => {
         />
         <nav className="hidden lg:block">
           <ul className="flex items-center space-x-10">
-            {navLinks.map((link) => (
+            {homepageData.nav.links.map((link) => (
               <li key={link.url}>
                 <a
                   href={link.url}
@@ -60,23 +30,27 @@ const Header = () => {
               </li>
             ))}
             <li className="lg:border-l-default lg:ml-6 lg:border-l lg:pl-8">
-              <a href={dennikNLink.url} target="_blank">
+              <a href={homepageData.nav.blogLinks.dennikN.url} target="_blank">
                 <img
-                  src={dennikNLink.logo}
-                  alt={dennikNLink.label}
+                  src={homepageData.nav.blogLinks.dennikN.logo}
+                  alt={homepageData.nav.blogLinks.dennikN.label}
                   className="h-[23px] w-[106px]"
                 />
-                <span className="hidden">{dennikNLink.label}</span>
+                <span className="hidden">
+                  {homepageData.nav.blogLinks.dennikN.label}
+                </span>
               </a>
             </li>
             <li className="relative top-[3px]">
-              <a href={smeBlogLink.url} target="_blank">
+              <a href={homepageData.nav.blogLinks.smeBlog.url} target="_blank">
                 <img
-                  src={smeBlogLink.logo}
-                  alt={smeBlogLink.label}
+                  src={homepageData.nav.blogLinks.smeBlog.logo}
+                  alt={homepageData.nav.blogLinks.smeBlog.label}
                   className="h-[21px] w-[71px]"
                 />
-                <span className="hidden">{smeBlogLink.label}</span>
+                <span className="hidden">
+                  {homepageData.nav.blogLinks.smeBlog.label}
+                </span>
               </a>
             </li>
           </ul>
@@ -109,7 +83,7 @@ const Header = () => {
         <div className="bg-brand-light ml-auto h-full w-4/5 py-6 pr-6 pl-8">
           <nav>
             <ul className="space-y-4">
-              {navLinks.map((link, index) => (
+              {homepageData.nav.links.map((link, index) => (
                 <li key={index}>
                   <a
                     href={link.url}
@@ -121,23 +95,33 @@ const Header = () => {
                 </li>
               ))}
               <li className="before:bg-brand relative pt-5 before:absolute before:top-0 before:left-0 before:h-[1px] before:w-[40px] before:content-['']">
-                <a href={dennikNLink.url} target="_blank">
+                <a
+                  href={homepageData.nav.blogLinks.dennikN.url}
+                  target="_blank"
+                >
                   <img
-                    src={dennikNLink.logo}
-                    alt={dennikNLink.label}
+                    src={homepageData.nav.blogLinks.dennikN.logo}
+                    alt={homepageData.nav.blogLinks.dennikN.label}
                     className="h-[30px] w-[140px]"
                   />
-                  <span className="hidden">{dennikNLink.label}</span>
+                  <span className="hidden">
+                    {homepageData.nav.blogLinks.dennikN.label}
+                  </span>
                 </a>
               </li>
               <li className="relative top-[3px] pt-2">
-                <a href={smeBlogLink.url} target="_blank">
+                <a
+                  href={homepageData.nav.blogLinks.smeBlog.url}
+                  target="_blank"
+                >
                   <img
-                    src={smeBlogLink.logo}
-                    alt={smeBlogLink.label}
+                    src={homepageData.nav.blogLinks.smeBlog.logo}
+                    alt={homepageData.nav.blogLinks.smeBlog.label}
                     className="h-[30px] w-[100px]"
                   />
-                  <span className="hidden">{smeBlogLink.label}</span>
+                  <span className="hidden">
+                    {homepageData.nav.blogLinks.smeBlog.label}
+                  </span>
                 </a>
               </li>
             </ul>
