@@ -1,20 +1,6 @@
+import { homepageData } from "../data/homepage";
 import Headline from "./Headline";
 import ShadowTile from "./ShadowTile";
-
-const goals = [
-  {
-    icon: "/assets/icon-goals-1.svg",
-    text: "Lákanie a udržanie talentu: pracovno-právne témy",
-  },
-  {
-    icon: "/assets/icon-goals-2.svg",
-    text: "Podpora výskumu a vývoja v softvérovej oblasti",
-  },
-  {
-    icon: "/assets/icon-goals-3.svg",
-    text: "Podpora inovácií v oblasti finančných, právnych a ďalších softvérových služieb",
-  },
-];
 
 const GoalTile = ({ icon, text, classes = "" }) => {
   return (
@@ -33,19 +19,12 @@ const Goals = () => {
       <div className="container mx-auto">
         <div className="lg:flex lg:justify-between">
           <div className="text-center lg:w-5/12 lg:text-left">
-            <Headline text="Naše ciele" />
-            <p className="mt-4 font-bold">
-              Cieľom našej iniciatívy je zlepšiť prostredie pre fungovanie
-              inovatívnych technologických firiem.
-            </p>
-            <p className="mt-4">
-              Veríme, že tieto zmeny zároveň vedia pomôcť aj pri transformácii
-              tradičnejších odvetví. Sústredíme sa na dosiahnutie legislatívnych
-              a regulačných zmien v nasledujúcich oblastiach:
-            </p>
+            <Headline text={homepageData.goals.title} />
+            <p className="mt-4 font-bold">{homepageData.goals.subtitle}</p>
+            <p className="mt-4">{homepageData.goals.text}</p>
           </div>
           <div className="mt-10 space-y-6 lg:mt-0 lg:w-6/12 xl:w-5/12">
-            {goals.map((goal, index) => (
+            {homepageData.goals.goalItems.map((goal, index) => (
               <GoalTile
                 {...goal}
                 key={index}

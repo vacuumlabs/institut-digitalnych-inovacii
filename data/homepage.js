@@ -37,4 +37,24 @@ export const homepageData = {
       "Veríme, že Slovensko má potenciál stať sa Estónskom či Fínskom strednej Európy.",
     imageUrl: "/assets/hero.svg",
   },
+  goals: {
+    title: "Naše ciele",
+    subtitle:
+      " Cieľom našej iniciatívy je zlepšiť prostredie pre fungovanie inovatívnych technologických firiem.",
+    text: "Veríme, že tieto zmeny zároveň vedia pomôcť aj pri transformácii tradičnejších odvetví. Sústredíme sa na dosiahnutie legislatívnych a regulačných zmien v nasledujúcich oblastiach:",
+    goalItems: [
+      {
+        icon: "/assets/icon-goals-1.svg",
+        text: "Lákanie a udržanie talentu: pracovno-právne témy",
+      },
+      {
+        icon: "/assets/icon-goals-2.svg",
+        text: "Podpora výskumu a vývoja v softvérovej oblasti",
+      },
+      {
+        icon: "/assets/icon-goals-3.svg",
+        text: "Podpora inovácií v oblasti finančných, právnych a ďalších softvérových služieb",
+      },
+    ],
+  },
 };
