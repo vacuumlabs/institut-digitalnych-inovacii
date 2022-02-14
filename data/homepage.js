@@ -186,4 +186,30 @@ export const homepageData = {
       ],
     },
   },
+  board: {
+    mainTitle: "Správna rada",
+    mainMembers: [
+      {
+        imageUrl: "https://dummyimage.com/400x400",
+        name: "Marián Porvažník",
+        position: "CEO, Vacuum Group",
+        linkedInUrl: "#",
+      },
+      {
+        imageUrl: "https://dummyimage.com/400x400",
+        name: "Peter Kolesár",
+        position: "Partner, CIVITTA",
+        linkedInUrl: "#",
+      },
+    ],
+    subTitle: "Projektový manažment",
+    subMembers: [
+      {
+        imageUrl: "https://dummyimage.com/400x400",
+        name: "Zuzana Pisoň",
+        position: "",
+        linkedInUrl: "#",
+      },
+    ],
+  },
 };
