@@ -16,6 +16,7 @@ module.exports = {
     },
     fontSize: {
       'title-large': ['80px', '96px'],
+      'title-larger': ['72px', '80px'],
       'title': '48px',
       'title-small': '28px',
       'text-large': '20px',

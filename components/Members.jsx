@@ -31,7 +31,7 @@ const otherlogos = [
 const Members = () => {
   return (
     <>
-      <div className="with-backdrop relative py-8 before:hidden lg:py-28 lg:before:top-[275px] lg:before:block lg:before:h-[400px]">
+      <div className="with-backdrop relative py-8 before:hidden lg:py-28 lg:before:top-[350px] lg:before:block lg:before:h-[550px] xl:before:top-[275px] xl:before:h-[400px]">
         <div className="container relative z-10 mx-auto">
           <Headline
             text="Zakladajúci členovia"

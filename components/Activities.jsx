@@ -27,22 +27,22 @@ const ActivityTile = ({
 
 const Activities = () => {
   return (
-    <div className="py-8 lg:py-28">
+    <div className="py-8 lg:py-20 xl:py-28">
       <div className="container mx-auto">
         <Headline text="Aktivity" />
-        <div className="mt-4 space-y-5 px-10 lg:mt-16 lg:flex lg:space-y-0 lg:space-x-10 lg:px-0">
+        <div className="mt-4 space-y-5 px-10 md:mt-10 md:flex md:space-y-0 md:space-x-6 lg:mt-16 lg:space-y-0 lg:space-x-10 lg:px-0">
           <ActivityTile
             text="“Politiky pre lepší digitálny ekosystém 2022”"
             linkText="policy paper (PDF)"
             linkURL="#"
-            classes="lg:w-3/12"
+            classes="md:w-6/12 xl:w-3/12"
           />
           <ActivityTile
             brandBg
             text="Konzultácie Národnej stratégie pre výskum, vývoj a inovácie"
             linkText="(PDF)"
             linkURL="#"
-            classes="lg:w-3/12"
+            classes="md:w-6/12 xl:w-3/12"
           />
         </div>
       </div>

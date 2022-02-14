@@ -29,7 +29,7 @@ const GoalTile = ({ icon, text, classes = "" }) => {
 
 const Goals = () => {
   return (
-    <div className="py-8 lg:py-28">
+    <div className="py-8 lg:py-20 xl:py-28">
       <div className="container mx-auto">
         <div className="lg:flex lg:justify-between">
           <div className="text-center lg:w-5/12 lg:text-left">
@@ -44,12 +44,12 @@ const Goals = () => {
               a regulačných zmien v nasledujúcich oblastiach:
             </p>
           </div>
-          <div className="mt-10 space-y-6 lg:mt-0 lg:w-5/12">
+          <div className="mt-10 space-y-6 lg:mt-0 lg:w-6/12 xl:w-5/12">
             {goals.map((goal, index) => (
               <GoalTile
                 {...goal}
                 key={index}
-                classes={index % 2 === 0 ? "lg:odd:mr-20" : "lg:even:ml-20"}
+                classes={index % 2 === 0 ? "md:odd:mr-20" : "md:even:ml-20"}
               />
             ))}
           </div>

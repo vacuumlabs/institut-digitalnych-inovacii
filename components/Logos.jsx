@@ -3,7 +3,7 @@ import ShadowTile from "./ShadowTile";
 const Logos = ({ logos }) => {
   return (
     <ShadowTile>
-      <div className="grid grid-cols-2 items-center justify-items-center gap-10 p-10 lg:grid-cols-7">
+      <div className="grid grid-cols-2 items-center justify-items-center gap-10 p-10 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7">
         {logos.map((logo) => (
           <img
             src={`/assets/${logo}.png`}

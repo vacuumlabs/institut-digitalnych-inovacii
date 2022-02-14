@@ -52,7 +52,5 @@
         @apply h-[400px];
         @apply right-0;
         @apply left-0;
-        @apply top-[200px];
-        @apply lg:top-[300px];
     }
 }

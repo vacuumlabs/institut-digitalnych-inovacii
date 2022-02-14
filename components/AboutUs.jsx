@@ -18,11 +18,11 @@ const AboutUsTile = ({ icon, text }) => {
 
 const AboutUs = () => {
   return (
-    <div className="py-8 lg:py-28">
+    <div className="py-8 lg:py-20 xl:py-28">
       <div className="container mx-auto">
         <Headline text="Kto sme?" />
         <div className="lg:mt-16 lg:flex lg:items-center lg:justify-between">
-          <div className="lg:w-5/12">
+          <div className="lg:w-7/12 xl:w-5/12">
             <div className="mt-10 space-y-6 lg:mt-0">
               <AboutUsTile
                 icon="/assets/icon-about-1.svg"
@@ -38,9 +38,9 @@ const AboutUs = () => {
               />
             </div>
           </div>
-          <div className="mt-20 lg:mt-0 lg:w-2/5">
+          <div className="mt-20 lg:mt-0 lg:w-4/12 xl:w-2/5">
             <div className="bg-polygon mx-auto flex aspect-square max-w-[320px] items-center justify-center bg-contain bg-center bg-no-repeat p-6 lg:max-w-full">
-              <h3 className="font-nasa text-brand text-title-small lg:text-title text-center">
+              <h3 className="font-nasa text-brand text-title-small xl:text-title text-center">
                 Sme hlasom digitálnej transformácie Slovenska
               </h3>
             </div>
