@@ -190,25 +190,26 @@ export const homepageData = {
     mainTitle: "Správna rada",
     mainMembers: [
       {
-        imageUrl: "https://dummyimage.com/400x400",
+        imageUrl: "/assets/marian-porvaznik.jpg",
         name: "Marián Porvažník",
         position: "CEO, Vacuum Group",
-        linkedInUrl: "#",
+        linkedInUrl:
+          "https://www.linkedin.com/in/majo-porvažn%C3%ADk-b3a43952/",
       },
       {
-        imageUrl: "https://dummyimage.com/400x400",
+        imageUrl: "/assets/peter-kolesar.jpg",
         name: "Peter Kolesár",
         position: "Partner, CIVITTA",
-        linkedInUrl: "#",
+        linkedInUrl: "https://www.linkedin.com/in/pkolesar/",
       },
     ],
     subTitle: "Projektový manažment",
     subMembers: [
       {
-        imageUrl: "https://dummyimage.com/400x400",
+        imageUrl: "/assets/zuzana-pison.jpg",
         name: "Zuzana Pisoň",
         position: "",
-        linkedInUrl: "#",
+        linkedInUrl: "https://www.linkedin.com/in/zuzana-pisoň-2876434b/",
       },
     ],
   },

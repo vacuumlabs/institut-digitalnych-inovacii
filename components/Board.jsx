@@ -16,6 +16,7 @@ const BoardTile = ({
           <a
             href={linkedInUrl}
             className="flex items-center justify-center space-x-2"
+            target="_blank"
           >
             <img
               src="/assets/linkedin-white.svg"
