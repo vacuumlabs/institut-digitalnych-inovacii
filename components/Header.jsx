@@ -20,6 +20,18 @@ const navLinks = [
   },
 ];
 
+const dennikNLink = {
+  logo: "/assets/dennik-n.svg",
+  url: "#",
+  label: "Denník N",
+};
+
+const smeBlogLink = {
+  logo: "/assets/sme-blog.svg",
+  url: "#",
+  label: "SME blog",
+};
+
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -37,8 +49,8 @@ const Header = () => {
         />
         <nav className="hidden lg:block">
           <ul className="flex items-center space-x-10">
-            {navLinks.map((link, index) => (
-              <li key={index}>
+            {navLinks.map((link) => (
+              <li key={link.url}>
                 <a
                   href={link.url}
                   className="font-nasa font-normal hover:underline"
@@ -47,6 +59,26 @@ const Header = () => {
                 </a>
               </li>
             ))}
+            <li className="lg:border-l-default lg:ml-6 lg:border-l lg:pl-8">
+              <a href={dennikNLink.url} target="_blank">
+                <img
+                  src={dennikNLink.logo}
+                  alt={dennikNLink.label}
+                  className="h-[23px] w-[106px]"
+                />
+                <span className="hidden">{dennikNLink.label}</span>
+              </a>
+            </li>
+            <li className="relative top-[3px]">
+              <a href={smeBlogLink.url} target="_blank">
+                <img
+                  src={smeBlogLink.logo}
+                  alt={smeBlogLink.label}
+                  className="h-[21px] w-[71px]"
+                />
+                <span className="hidden">{smeBlogLink.label}</span>
+              </a>
+            </li>
           </ul>
         </nav>
         <button
@@ -88,6 +120,26 @@ const Header = () => {
                   </a>
                 </li>
               ))}
+              <li className="before:bg-brand relative pt-5 before:absolute before:top-0 before:left-0 before:h-[1px] before:w-[40px] before:content-['']">
+                <a href={dennikNLink.url} target="_blank">
+                  <img
+                    src={dennikNLink.logo}
+                    alt={dennikNLink.label}
+                    className="h-[30px] w-[140px]"
+                  />
+                  <span className="hidden">{dennikNLink.label}</span>
+                </a>
+              </li>
+              <li className="relative top-[3px] pt-2">
+                <a href={smeBlogLink.url} target="_blank">
+                  <img
+                    src={smeBlogLink.logo}
+                    alt={smeBlogLink.label}
+                    className="h-[30px] w-[100px]"
+                  />
+                  <span className="hidden">{smeBlogLink.label}</span>
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
