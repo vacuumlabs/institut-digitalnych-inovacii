@@ -36,7 +36,8 @@ const Members = () => {
           <Headline
             text="Zakladajúci členovia"
             withUnderline={false}
-            classes="lg:text-title-small text-brand"
+            brandColor
+            largeFontSizeLg={false}
           />
           <div className="mt-4">
             <Logos logos={logos} />
@@ -48,7 +49,8 @@ const Members = () => {
           <Headline
             text="Ďalší členovia"
             withUnderline={false}
-            classes="lg:text-title-small text-brand"
+            brandColor
+            largeFontSizeLg={false}
           />
           <div className="mt-4">
             <Logos logos={otherlogos} />

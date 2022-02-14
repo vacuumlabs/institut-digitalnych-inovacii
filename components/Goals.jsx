@@ -19,7 +19,7 @@ const goals = [
 const GoalTile = ({ icon, text, classes = "" }) => {
   return (
     <ShadowTile classes={classes}>
-      <div className="flex items-center space-x-4 py-6 px-6">
+      <div className="flex items-center space-x-4 py-4 px-4 sm:py-6 sm:px-6">
         <img src={icon} alt="" />
         <h3 className="text-brand font-bold">{text}</h3>
       </div>

@@ -3,29 +3,29 @@ import classNames from "classnames";
 const Headline = ({
   text,
   withUnderline = true,
-  tag = "h2",
   classes = "",
   alignCenter = true,
   alignCenterLg = false,
+  brandColor = false,
+  largeFontSizeLg = true,
 }) => {
-  const Tag = tag;
-
   return (
-    <Tag
+    <h2
       className={classNames(
         withUnderline && "brand-underline",
         "font-nasa",
         "text-title-small",
-        "lg:text-title",
+        largeFontSizeLg && "lg:text-title",
         "uppercase",
         alignCenter ? "text-center" : "text-left",
         alignCenterLg ? "lg:text-center" : "lg:text-left",
         withUnderline && alignCenterLg && "lg:brand-underline--centered-lg",
+        brandColor && "text-brand",
         classes
       )}
     >
       {text}
-    </Tag>
+    </h2>
   );
 };
 
