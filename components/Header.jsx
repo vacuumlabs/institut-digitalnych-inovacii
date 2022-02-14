@@ -57,7 +57,7 @@ const Header = () => {
         </nav>
         <button
           className="space-y-2 lg:hidden"
-          aria-label="open menu"
+          aria-label="menu"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <div className="bg-default h-[2px] w-[30px] rounded-sm" />
