@@ -37,7 +37,6 @@ const Activities = () => {
           {homepageData.activities.activityItems.map((activity, index) => (
             <ActivityTile
               key={index}
-              brandBg={index % 2 !== 0}
               text={activity.text}
               linkText={activity.linkText}
               linkURL={activity.linkURL}
