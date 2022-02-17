@@ -19,8 +19,8 @@ module.exports = {
       'title-larger': ['72px', '80px'],
       'title': '48px',
       'title-small': '28px',
-      'text-large': '20px',
-      'text-larger': '18px',
+      'text-large': '24px',
+      'text-larger': '20px',
       'text': '16px',
       'text-small': '14px'
     },

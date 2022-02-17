@@ -9,7 +9,7 @@ const Hero = () => {
             <h1 className="font-nasa text-title-small text-brand sm:text-title lg:text-title-larger xl:text-title-large uppercase">
               {homepageData.hero.title}
             </h1>
-            <p className="lg:text-text-large mt-4 lg:mt-6 lg:max-w-[400px] xl:max-w-[480px]">
+            <p className="lg:text-text-larger mt-4 lg:mt-6 lg:max-w-[400px] xl:max-w-[480px]">
               {homepageData.hero.subtitle}
             </p>
           </div>
