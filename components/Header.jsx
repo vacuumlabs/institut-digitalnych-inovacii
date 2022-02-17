@@ -87,7 +87,7 @@ const Header = () => {
                 <li key={index}>
                   <a
                     href={link.url}
-                    className="font-nasa text-text-large sm:text-title-small font-normal"
+                    className="font-nasa text-text-larger sm:text-title-small font-normal"
                     onClick={() => setMenuOpen(false)}
                   >
                     {link.label}
