@@ -32,9 +32,6 @@ const Footer = () => {
             </a>
           </p>
           <div className="flex items-center justify-center space-x-6">
-            <a href={homepageData.footer.facebookUrl} target="_blank">
-              <img src="/assets/facebook.svg" alt="facebook" />
-            </a>
             <a href={homepageData.footer.linkedInUrl} target="_blank">
               <img src="/assets/linkedin.svg" alt="linkedin" />
             </a>
