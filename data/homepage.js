@@ -150,6 +150,26 @@ export const homepageData = {
           imageUrl: "logo-ajtyvit",
           name: "Aj ty v IT",
         },
+        {
+          imageUrl: "logo-vacuumlabs",
+          name: "Vacuumlabs",
+        },
+        {
+          imageUrl: "logo-campus",
+          name: "Campus",
+        },
+        {
+          imageUrl: "logo-dennik-n",
+          name: "Denník N",
+        },
+        {
+          imageUrl: "logo-sme-blog",
+          name: "SME Blog",
+        },
+        {
+          imageUrl: "logo-ey",
+          name: "EY",
+        },
       ],
     },
     otherMembers: {
