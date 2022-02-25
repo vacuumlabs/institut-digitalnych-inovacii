@@ -2,7 +2,7 @@ import classNames from "classnames";
 import { useEffect, useState } from "react";
 import { homepageData } from "../data/homepage";
 
-const Header = () => {
+const Header = ({ showBlogLinks = false }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -29,30 +29,40 @@ const Header = () => {
                 </a>
               </li>
             ))}
-            <li className="lg:border-l-default lg:ml-6 lg:border-l lg:pl-8">
-              <a href={homepageData.nav.blogLinks.dennikN.url} target="_blank">
-                <img
-                  src={homepageData.nav.blogLinks.dennikN.logo}
-                  alt={homepageData.nav.blogLinks.dennikN.label}
-                  className="h-[23px] w-[106px]"
-                />
-                <span className="hidden">
-                  {homepageData.nav.blogLinks.dennikN.label}
-                </span>
-              </a>
-            </li>
-            <li className="relative top-[3px]">
-              <a href={homepageData.nav.blogLinks.smeBlog.url} target="_blank">
-                <img
-                  src={homepageData.nav.blogLinks.smeBlog.logo}
-                  alt={homepageData.nav.blogLinks.smeBlog.label}
-                  className="h-[21px] w-[71px]"
-                />
-                <span className="hidden">
-                  {homepageData.nav.blogLinks.smeBlog.label}
-                </span>
-              </a>
-            </li>
+            {showBlogLinks && (
+              <>
+                <li className="lg:border-l-default lg:ml-6 lg:border-l lg:pl-8">
+                  <a
+                    href={homepageData.nav.blogLinks.dennikN.url}
+                    target="_blank"
+                  >
+                    <img
+                      src={homepageData.nav.blogLinks.dennikN.logo}
+                      alt={homepageData.nav.blogLinks.dennikN.label}
+                      className="h-[23px] w-[106px]"
+                    />
+                    <span className="hidden">
+                      {homepageData.nav.blogLinks.dennikN.label}
+                    </span>
+                  </a>
+                </li>
+                <li className="relative top-[3px]">
+                  <a
+                    href={homepageData.nav.blogLinks.smeBlog.url}
+                    target="_blank"
+                  >
+                    <img
+                      src={homepageData.nav.blogLinks.smeBlog.logo}
+                      alt={homepageData.nav.blogLinks.smeBlog.label}
+                      className="h-[21px] w-[71px]"
+                    />
+                    <span className="hidden">
+                      {homepageData.nav.blogLinks.smeBlog.label}
+                    </span>
+                  </a>
+                </li>
+              </>
+            )}
           </ul>
         </nav>
         <button
@@ -94,36 +104,40 @@ const Header = () => {
                   </a>
                 </li>
               ))}
-              <li className="before:bg-brand relative pt-5 before:absolute before:top-0 before:left-0 before:h-[1px] before:w-[40px] before:content-['']">
-                <a
-                  href={homepageData.nav.blogLinks.dennikN.url}
-                  target="_blank"
-                >
-                  <img
-                    src={homepageData.nav.blogLinks.dennikN.logo}
-                    alt={homepageData.nav.blogLinks.dennikN.label}
-                    className="h-[30px] w-[140px]"
-                  />
-                  <span className="hidden">
-                    {homepageData.nav.blogLinks.dennikN.label}
-                  </span>
-                </a>
-              </li>
-              <li className="relative top-[3px] pt-2">
-                <a
-                  href={homepageData.nav.blogLinks.smeBlog.url}
-                  target="_blank"
-                >
-                  <img
-                    src={homepageData.nav.blogLinks.smeBlog.logo}
-                    alt={homepageData.nav.blogLinks.smeBlog.label}
-                    className="h-[30px] w-[100px]"
-                  />
-                  <span className="hidden">
-                    {homepageData.nav.blogLinks.smeBlog.label}
-                  </span>
-                </a>
-              </li>
+              {showBlogLinks && (
+                <>
+                  <li className="before:bg-brand relative pt-5 before:absolute before:top-0 before:left-0 before:h-[1px] before:w-[40px] before:content-['']">
+                    <a
+                      href={homepageData.nav.blogLinks.dennikN.url}
+                      target="_blank"
+                    >
+                      <img
+                        src={homepageData.nav.blogLinks.dennikN.logo}
+                        alt={homepageData.nav.blogLinks.dennikN.label}
+                        className="h-[30px] w-[140px]"
+                      />
+                      <span className="hidden">
+                        {homepageData.nav.blogLinks.dennikN.label}
+                      </span>
+                    </a>
+                  </li>
+                  <li className="relative top-[3px] pt-2">
+                    <a
+                      href={homepageData.nav.blogLinks.smeBlog.url}
+                      target="_blank"
+                    >
+                      <img
+                        src={homepageData.nav.blogLinks.smeBlog.logo}
+                        alt={homepageData.nav.blogLinks.smeBlog.label}
+                        className="h-[30px] w-[100px]"
+                      />
+                      <span className="hidden">
+                        {homepageData.nav.blogLinks.smeBlog.label}
+                      </span>
+                    </a>
+                  </li>
+                </>
+              )}
             </ul>
           </nav>
         </div>
