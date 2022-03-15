@@ -53,4 +53,12 @@
         @apply right-0;
         @apply left-0;
     }
+    .with-radius {
+        @apply rounded-[30px];
+        @apply rounded-tl-none;
+    }
+    .with-small-radius {
+        @apply rounded-[8px];
+        @apply rounded-tl-none;
+    }
 }

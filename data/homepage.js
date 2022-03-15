@@ -59,7 +59,31 @@ export const homepageData = {
   },
   activities: {
     title: "Aktivity",
-    activityItems: [
+    items: [
+      {
+        text: "“Politiky pre lepší digitálny ekosystém 2022”",
+        linkText: "policy paper (PDF)",
+        linkURL: "#",
+      },
+      {
+        text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
+        linkText: "(PDF)",
+        linkURL: "#",
+      },
+      {
+        text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
+        buttonText: "Zobraziť článok",
+        buttonURL: "#",
+        imageURL: "/assets/news-item-1.jpg",
+        isNewsArticle: true,
+      },
+      {
+        text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
+        buttonText: "Zobraziť článok",
+        buttonURL: "#",
+        imageURL: "/assets/news-item-2.jpg",
+        isNewsArticle: true,
+      },
       {
         text: "“Politiky pre lepší digitálny ekosystém 2022”",
         linkText: "policy paper (PDF)",

@@ -1,18 +1,26 @@
 import classNames from "classnames";
 
-const ShadowTile = ({ brandBg = false, classes = "", children }) => {
+const ShadowTile = ({
+  brandBg = false,
+  classes = "",
+  tagName = "div",
+  fullHeight = false,
+  children,
+}) => {
+  const TagName = tagName;
+
   return (
-    <div
+    <TagName
       className={classNames(
         "brand-shadow",
-        "rounded-[30px]",
-        "rounded-tl-none",
+        "with-radius",
         brandBg ? "bg-brand text-white" : "text-default bg-white",
+        fullHeight && "h-full",
         classes
       )}
     >
       {children}
-    </div>
+    </TagName>
   );
 };
 
