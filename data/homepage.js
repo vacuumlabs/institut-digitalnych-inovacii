@@ -105,7 +105,7 @@ export const homepageData = {
       },
       {
         icon: "/assets/icon-about-2.svg",
-        text: "Preto sme založili túto nezávislú občiansku platformu, ktorá má slúžiť na presadzovanie politík, ktoré sú kľúčové pre lepšie fungovanie inovačného ekosystému.",
+        text: "Preto sme založili túto nezávislú iniciatívu, ktorá má slúžiť na presadzovanie politík, ktoré sú kľúčové pre lepšie fungovanie inovačného ekosystému.",
       },
       {
         icon: "/assets/icon-about-3.svg",
@@ -231,7 +231,7 @@ export const homepageData = {
     },
   },
   board: {
-    mainTitle: "Správna rada",
+    mainTitle: "Ambasádori projektu",
     mainMembers: [
       {
         imageUrl: "/assets/marian-porvaznik.jpg",
@@ -266,7 +266,8 @@ export const homepageData = {
       raw: "+421910324516",
       pretty: "+421 910 324 516",
     },
-    email: "info@idi.sk",
+    email: "vacuumgroup@vacuumgroup.com",
+    emailLabel: "E-mail",
     facebookUrl: "#",
     linkedInUrl: "#",
     links: [

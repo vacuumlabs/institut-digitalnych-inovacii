@@ -15,20 +15,11 @@ const Footer = () => {
             </span>
           </p>
           <p>
-            <b>Tel:</b>{" "}
-            <a
-              href={`tel:${homepageData.footer.phone.raw}`}
-              className="hover:underline"
-            >
-              {homepageData.footer.phone.pretty}
-            </a>
-            <br />
-            <b>E-mail:</b>{" "}
             <a
               href={`mailto:${homepageData.footer.email}`}
               className="hover:underline"
             >
-              {homepageData.footer.email}
+              {homepageData.footer.emailLabel}
             </a>
           </p>
           <div className="flex items-center justify-center space-x-6">

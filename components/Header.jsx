@@ -11,12 +11,7 @@ const Header = ({ showBlogLinks = false }) => {
 
   return (
     <header>
-      <div className="container relative z-20 mx-auto flex h-[78px] items-center justify-between lg:h-[88px]">
-        <img
-          src="/assets/logo.svg"
-          className="h-[31px] w-[110px] lg:h-[39px] lg:w-[140px]"
-          alt="IDI logo"
-        />
+      <div className="container relative z-20 mx-auto flex h-[78px] items-center justify-end lg:h-[88px]">
         <nav className="hidden lg:block">
           <ul className="flex items-center space-x-6 xl:space-x-10">
             {homepageData.nav.links.map((link) => (
