@@ -246,6 +246,18 @@ export const homepageData = {
         position: "Partner, CIVITTA",
         linkedInUrl: "https://www.linkedin.com/in/pkolesar/",
       },
+      {
+        imageUrl: "/assets/matej-ftacnik.jpg",
+        name: "Matej Ftáčnik",
+        position: "CEO, Vacuumlabs",
+        linkedInUrl: "https://www.linkedin.com/in/ftacnik/",
+      },
+      {
+        imageUrl: "/assets/michal-kardos.jpg",
+        name: "Michal Kardoš",
+        position: "Executive Director, Sapie",
+        linkedInUrl: "hhttps://www.linkedin.com/in/michal-kardos-b9908757/",
+      },
     ],
     subTitle: "Projektový manažment",
     subMembers: [
