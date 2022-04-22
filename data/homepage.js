@@ -32,68 +32,70 @@ export const homepageData = {
     },
   },
   hero: {
-    title: "Za inovatívne Slovensko",
-    subtitle:
-      "Veríme, že Slovensko má potenciál stať sa Estónskom či Fínskom strednej Európy.",
+    title: "Digitálna budúcnosť je v našich rukách.",
     imageUrl: "/assets/hero.svg",
   },
   goals: {
     title: "Naše ciele",
     subtitle:
-      " Cieľom našej iniciatívy je zlepšiť prostredie pre fungovanie inovatívnych technologických firiem.",
+      "Cieľom našej iniciatívy je zlepšiť prostredie pre fungovanie inovatívnych technologických firiem.",
     text: "Veríme, že tieto zmeny zároveň vedia pomôcť aj pri transformácii tradičnejších odvetví. Sústredíme sa na dosiahnutie legislatívnych a regulačných zmien v nasledujúcich oblastiach:",
     goalItems: [
       {
         icon: "/assets/icon-goals-1.svg",
-        text: "Lákanie a udržanie talentu: pracovno-právne témy",
+        text: "Lákanie a udržanie talentu",
       },
       {
-        icon: "/assets/icon-goals-2.svg",
-        text: "Podpora výskumu a vývoja v softvérovej oblasti",
+        icon: "/assets/icon-goals-4.svg",
+        text: "Zefektívnenie byrokratických procesov",
       },
       {
         icon: "/assets/icon-goals-3.svg",
-        text: "Podpora inovácií v oblasti finančných, právnych a ďalších softvérových služieb",
+        text: "Podpora výskumu a vývoja",
+      },
+      {
+        icon: "/assets/icon-goals-2.svg",
+        text: "Rozvoj inovačného ekosystému",
       },
     ],
   },
   activities: {
     title: "Aktivity",
     items: [
-      {
-        text: "“Politiky pre lepší digitálny ekosystém 2022”",
-        linkText: "policy paper (PDF)",
-        linkURL: "#",
-      },
-      {
-        text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
-        linkText: "(PDF)",
-        linkURL: "#",
-      },
-      {
-        text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
-        buttonText: "Zobraziť článok",
-        buttonURL: "#",
-        imageURL: "/assets/news-item-1.jpg",
-        isNewsArticle: true,
-      },
+      // {
+      //   text: "“Politiky pre lepší digitálny ekosystém 2022”",
+      //   linkText: "policy paper (PDF)",
+      //   linkURL: "#",
+      // },
+      // {
+      //   text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
+      //   linkText: "(PDF)",
+      //   linkURL: "#",
+      // },
       {
         text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
         buttonText: "Zobraziť článok",
-        buttonURL: "#",
+        buttonURL: "/files/content.pdf",
         imageURL: "/assets/news-item-2.jpg",
         isNewsArticle: true,
       },
-      {
-        text: "“Politiky pre lepší digitálny ekosystém 2022”",
-        linkText: "policy paper (PDF)",
-        linkURL: "#",
-      },
-      {
-        text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
-        linkText: "(PDF)",
-        linkURL: "#",
-      },
+      // {
+      //   text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
+      //   buttonText: "Zobraziť článok",
+      //   buttonURL: "#",
+      //   imageURL: "/assets/news-item-2.jpg",
+      //   isNewsArticle: true,
+      // },
+      // {
+      //   text: "“Politiky pre lepší digitálny ekosystém 2022”",
+      //   linkText: "policy paper (PDF)",
+      //   linkURL: "#",
+      // },
+      // {
+      //   text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
+      //   linkText: "(PDF)",
+      //   linkURL: "#",
+      // },
     ],
   },
   aboutUs: {
@@ -127,6 +129,10 @@ export const homepageData = {
           name: "Civitta",
         },
         {
+          imageUrl: "logo-sapie",
+          name: "Sapie",
+        },
+        {
           imageUrl: "logo-fintechclub",
           name: "FintechHubSlovakia",
         },
@@ -137,10 +143,6 @@ export const homepageData = {
         {
           imageUrl: "logo-perrytalents",
           name: "PerryTalens",
-        },
-        {
-          imageUrl: "logo-sapie",
-          name: "Sapie",
         },
         {
           imageUrl: "logo-slovakamericanfoundation",
@@ -182,17 +184,29 @@ export const homepageData = {
           imageUrl: "logo-campus",
           name: "Campus",
         },
-        {
-          imageUrl: "logo-dennik-n",
-          name: "Denník N",
-        },
-        {
-          imageUrl: "logo-sme-blog",
-          name: "SME Blog",
-        },
+        // {
+        //   imageUrl: "logo-dennik-n",
+        //   name: "Denník N",
+        // },
+        // {
+        //   imageUrl: "logo-sme-blog",
+        //   name: "SME Blog",
+        // },
         {
           imageUrl: "logo-ey",
           name: "EY",
+        },
+        {
+          imageUrl: "logo-slovensko-digital",
+          name: "Slovensko.digital",
+        },
+        {
+          imageUrl: "logo-slovca",
+          name: "Slovca",
+        },
+        {
+          imageUrl: "logo-kinit",
+          name: "Kinit",
         },
       ],
     },
@@ -241,6 +255,18 @@ export const homepageData = {
           "https://www.linkedin.com/in/majo-porvažn%C3%ADk-b3a43952/",
       },
       {
+        imageUrl: "/assets/michal-kardos.jpg",
+        name: "Michal Kardoš",
+        position: "Executive Director, Sapie",
+        linkedInUrl: "https://www.linkedin.com/in/michal-kardos-b9908757/",
+      },
+      {
+        imageUrl: "/assets/maria-bielikova.jpg",
+        name: "Mária Bieliková",
+        position: "CEO, KInIT",
+        linkedInUrl: "https://www.linkedin.com/in/mariabielik/",
+      },
+      {
         imageUrl: "/assets/peter-kolesar.jpg",
         name: "Peter Kolesár",
         position: "Partner, CIVITTA",
@@ -251,12 +277,6 @@ export const homepageData = {
         name: "Matej Ftáčnik",
         position: "CEO, Vacuumlabs",
         linkedInUrl: "https://www.linkedin.com/in/ftacnik/",
-      },
-      {
-        imageUrl: "/assets/michal-kardos.jpg",
-        name: "Michal Kardoš",
-        position: "Executive Director, Sapie",
-        linkedInUrl: "hhttps://www.linkedin.com/in/michal-kardos-b9908757/",
       },
     ],
     subTitle: "Projektový manažment",
@@ -279,22 +299,14 @@ export const homepageData = {
       pretty: "+421 910 324 516",
     },
     email: "vacuumgroup@vacuumgroup.com",
-    emailLabel: "E-mail",
+    emailLabel: "E-mail: vacuumgroup@vacuumgroup.com",
     facebookUrl: "#",
     linkedInUrl: "#",
     links: [
       {
-        label: "legal notice",
-        url: "#",
-        openInNewTab: true,
-      },
-      {
         label: "privacy policy",
-        url: "#",
-      },
-      {
-        label: "contact",
-        url: "#",
+        url: "/files/privacy_policy.pdf",
+        openInNewTab: true,
       },
     ],
   },

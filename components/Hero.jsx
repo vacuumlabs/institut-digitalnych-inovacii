@@ -6,12 +6,14 @@ const Hero = () => {
       <div className="container mx-auto">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="text-center lg:w-7/12 lg:pr-10 lg:text-left xl:pr-20">
-            <h1 className="font-nasa text-title-small text-brand sm:text-title lg:text-title-larger xl:text-title-large uppercase">
+            <h1 className="font-nasa text-title-small text-brand sm:text-title lg:text-title-larger uppercase">
               {homepageData.hero.title}
             </h1>
-            <p className="lg:text-text-larger mt-4 lg:mt-6 lg:max-w-[400px] xl:max-w-[480px]">
-              {homepageData.hero.subtitle}
-            </p>
+            {homepageData.hero.subtitle && (
+              <p className="lg:text-text-larger mt-4 lg:mt-6 lg:max-w-[400px] xl:max-w-[480px]">
+                {homepageData.hero.subtitle}
+              </p>
+            )}
           </div>
           <img
             className="mx-auto mt-4 lg:mt-0 lg:w-5/12 lg:max-w-[550px]"

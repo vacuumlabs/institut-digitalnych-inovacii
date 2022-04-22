@@ -11,7 +11,10 @@ const Header = ({ showBlogLinks = false }) => {
 
   return (
     <header>
-      <div className="container relative z-20 mx-auto flex h-[78px] items-center justify-end lg:h-[88px]">
+      <div className="container relative z-20 mx-auto flex h-[78px] items-center justify-between lg:h-[88px]">
+        <h1 className="md:text-text-larger text-brand font-nasa uppercase">
+          Za inovatívne Slovensko
+        </h1>
         <nav className="hidden lg:block">
           <ul className="flex items-center space-x-6 xl:space-x-10">
             {homepageData.nav.links.map((link) => (

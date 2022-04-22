@@ -12,7 +12,10 @@ module.exports = {
         DEFAULT: '#328BF2',
       },
       white: '#FFFFFF',
-      gray: '#E8E8E8'
+      gray: {
+        dark: '#B0B0B0',
+        DEFAULT: '#E8E8E8'
+      }
     },
     fontSize: {
       'title-large': ['80px', '96px'],

@@ -27,19 +27,26 @@ const Footer = () => {
               <img src="/assets/linkedin.svg" alt="linkedin" />
             </a>
           </div>
-          <ul>
-            {homepageData.footer.links.map((link, index) => (
-              <li key={index}>
-                <a
-                  href={link.url}
-                  target={link.openInNewTab ? "_blank" : "_self"}
-                  className="underline"
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul>
+          <div>
+            <ul>
+              {homepageData.footer.links.map((link, index) => (
+                <li key={index}>
+                  <a
+                    href={link.url}
+                    target={link.openInNewTab ? "_blank" : "_self"}
+                    className="underline"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <p className="text-gray-dark text-text-small mt-2">
+              © 2022 vacuumlabs s.r.o.
+              <br />
+              Všetky práva vyhradené
+            </p>
+          </div>
         </div>
       </div>
     </footer>
