@@ -73,7 +73,7 @@ export const homepageData = {
       //   linkURL: "#",
       // },
       {
-        text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
+        text: "Ako dobehneme svet v inováciách?",
         buttonText: "Zobraziť článok",
         buttonURL: "/files/content.pdf",
         imageURL: "/assets/news-item-2.jpg",
@@ -192,10 +192,10 @@ export const homepageData = {
         //   imageUrl: "logo-sme-blog",
         //   name: "SME Blog",
         // },
-        {
-          imageUrl: "logo-ey",
-          name: "EY",
-        },
+        // {
+        //   imageUrl: "logo-ey",
+        //   name: "EY",
+        // },
         {
           imageUrl: "logo-slovensko-digital",
           name: "Slovensko.digital",
@@ -240,6 +240,78 @@ export const homepageData = {
         {
           imageUrl: "logo-trama",
           name: "Trama",
+        },
+        {
+          imageUrl: "logo-26-house",
+          name: "26 House",
+        },
+        {
+          imageUrl: "logo-ayanza",
+          name: "Ayanza",
+        },
+        {
+          imageUrl: "logo-bloomreach",
+          name: "Bloomreach",
+        },
+        {
+          imageUrl: "logo-dingodot",
+          name: "DingoDot",
+        },
+        {
+          imageUrl: "logo-eatster",
+          name: "EatSter",
+        },
+        {
+          imageUrl: "logo-freevision",
+          name: "FreeVision",
+        },
+        {
+          imageUrl: "logo-globsec",
+          name: "Globsec",
+        },
+        {
+          imageUrl: "logo-innovate-slovakia",
+          name: "Innovate Slovakia",
+        },
+        {
+          imageUrl: "logo-kickresume",
+          name: "Kickresume",
+        },
+        {
+          imageUrl: "logo-mobilyze",
+          name: "Mobilyze",
+        },
+        {
+          imageUrl: "logo-o2",
+          name: "O2",
+        },
+        {
+          imageUrl: "logo-rvmagnetics",
+          name: "RV Magnetics",
+        },
+        {
+          imageUrl: "logo-scr",
+          name: "SCR",
+        },
+        {
+          imageUrl: "logo-seak",
+          name: "SEAK",
+        },
+        {
+          imageUrl: "logo-sensoneo",
+          name: "Sensoneo",
+        },
+        {
+          imageUrl: "logo-stylers-cloud",
+          name: "Stylers Cloud",
+        },
+        {
+          imageUrl: "logo-taylor-wessing",
+          name: "Taylor Wessing",
+        },
+        {
+          imageUrl: "logo-wood-company",
+          name: "Wood&Company",
         },
       ],
     },
@@ -298,13 +370,14 @@ export const homepageData = {
       raw: "+421910324516",
       pretty: "+421 910 324 516",
     },
-    email: "vacuumgroup@vacuumgroup.com",
-    emailLabel: "E-mail: vacuumgroup@vacuumgroup.com",
-    facebookUrl: "#",
-    linkedInUrl: "#",
+    email: "info@zainovativneslovensko.sk",
+    emailLabel: "E-mail: info@zainovativneslovensko.sk",
+    facebookUrl:
+      "https://www.facebook.com/Za-inovat%C3%ADvne-Slovensko-114334164586144",
+    linkedInUrl: "https://www.linkedin.com/company/za-inovativne-slovensko",
     links: [
       {
-        label: "privacy policy",
+        label: "Privacy policy",
         url: "/files/privacy_policy.pdf",
         openInNewTab: true,
       },
