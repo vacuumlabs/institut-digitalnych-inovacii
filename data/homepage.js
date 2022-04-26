@@ -192,10 +192,6 @@ export const homepageData = {
         //   imageUrl: "logo-sme-blog",
         //   name: "SME Blog",
         // },
-        // {
-        //   imageUrl: "logo-ey",
-        //   name: "EY",
-        // },
         {
           imageUrl: "logo-slovensko-digital",
           name: "Slovensko.digital",
@@ -207,6 +203,10 @@ export const homepageData = {
         {
           imageUrl: "logo-kinit",
           name: "Kinit",
+        },
+        {
+          imageUrl: "logo-ey",
+          name: "EY",
         },
       ],
     },
