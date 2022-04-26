@@ -1,6 +1,6 @@
 export const meta = {
-  title: "Inštitút digitálnych inovácií - Za inovatívne Slovensko",
+  title: "Za inovatívne Slovensko",
   description:
-    "Inštitút digitálnych inovácií je nezávislá iniciatíva, ktorá slúži na presadzovanie politík, ktoré sú kľúčové pre lepšie fungovanie inovačného ekosystému.",
+    "Za inovatívne Slovensko je nezávislá iniciatíva, ktorá slúži na presadzovanie politík, ktoré sú kľúčové pre lepšie fungovanie inovačného ekosystému.",
   imageUrl: "/assets/idi-og.jpg",
 };
