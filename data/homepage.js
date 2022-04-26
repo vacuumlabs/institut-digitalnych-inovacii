@@ -32,44 +32,70 @@ export const homepageData = {
     },
   },
   hero: {
-    title: "Za inovatívne Slovensko",
-    subtitle:
-      "Veríme, že Slovensko má potenciál stať sa Estónskom či Fínskom strednej Európy.",
+    title: "Digitálna budúcnosť je v našich rukách.",
     imageUrl: "/assets/hero.svg",
   },
   goals: {
     title: "Naše ciele",
     subtitle:
-      " Cieľom našej iniciatívy je zlepšiť prostredie pre fungovanie inovatívnych technologických firiem.",
+      "Cieľom našej iniciatívy je zlepšiť prostredie pre fungovanie inovatívnych technologických firiem.",
     text: "Veríme, že tieto zmeny zároveň vedia pomôcť aj pri transformácii tradičnejších odvetví. Sústredíme sa na dosiahnutie legislatívnych a regulačných zmien v nasledujúcich oblastiach:",
     goalItems: [
       {
         icon: "/assets/icon-goals-1.svg",
-        text: "Lákanie a udržanie talentu: pracovno-právne témy",
+        text: "Lákanie a udržanie talentu",
       },
       {
-        icon: "/assets/icon-goals-2.svg",
-        text: "Podpora výskumu a vývoja v softvérovej oblasti",
+        icon: "/assets/icon-goals-4.svg",
+        text: "Zefektívnenie byrokratických procesov",
       },
       {
         icon: "/assets/icon-goals-3.svg",
-        text: "Podpora inovácií v oblasti finančných, právnych a ďalších softvérových služieb",
+        text: "Podpora výskumu a vývoja",
+      },
+      {
+        icon: "/assets/icon-goals-2.svg",
+        text: "Rozvoj inovačného ekosystému",
       },
     ],
   },
   activities: {
     title: "Aktivity",
-    activityItems: [
+    items: [
+      // {
+      //   text: "“Politiky pre lepší digitálny ekosystém 2022”",
+      //   linkText: "policy paper (PDF)",
+      //   linkURL: "#",
+      // },
+      // {
+      //   text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
+      //   linkText: "(PDF)",
+      //   linkURL: "#",
+      // },
       {
-        text: "“Politiky pre lepší digitálny ekosystém 2022”",
-        linkText: "policy paper (PDF)",
-        linkURL: "#",
+        text: "Ako dobehneme svet v inováciách?",
+        buttonText: "Zobraziť článok",
+        buttonURL: "/files/content.pdf",
+        imageURL: "/assets/news-item-2.jpg",
+        isNewsArticle: true,
       },
-      {
-        text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
-        linkText: "(PDF)",
-        linkURL: "#",
-      },
+      // {
+      //   text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
+      //   buttonText: "Zobraziť článok",
+      //   buttonURL: "#",
+      //   imageURL: "/assets/news-item-2.jpg",
+      //   isNewsArticle: true,
+      // },
+      // {
+      //   text: "“Politiky pre lepší digitálny ekosystém 2022”",
+      //   linkText: "policy paper (PDF)",
+      //   linkURL: "#",
+      // },
+      // {
+      //   text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
+      //   linkText: "(PDF)",
+      //   linkURL: "#",
+      // },
     ],
   },
   aboutUs: {
@@ -81,7 +107,7 @@ export const homepageData = {
       },
       {
         icon: "/assets/icon-about-2.svg",
-        text: "Preto sme založili túto nezávislú občiansku platformu, ktorá má slúžiť na presadzovanie politík, ktoré sú kľúčové pre lepšie fungovanie inovačného ekosystému.",
+        text: "Preto sme založili túto nezávislú iniciatívu, ktorá má slúžiť na presadzovanie politík, ktoré sú kľúčové pre lepšie fungovanie inovačného ekosystému.",
       },
       {
         icon: "/assets/icon-about-3.svg",
@@ -103,6 +129,10 @@ export const homepageData = {
           name: "Civitta",
         },
         {
+          imageUrl: "logo-sapie",
+          name: "Sapie",
+        },
+        {
           imageUrl: "logo-fintechclub",
           name: "FintechHubSlovakia",
         },
@@ -113,10 +143,6 @@ export const homepageData = {
         {
           imageUrl: "logo-perrytalents",
           name: "PerryTalens",
-        },
-        {
-          imageUrl: "logo-sapie",
-          name: "Sapie",
         },
         {
           imageUrl: "logo-slovakamericanfoundation",
@@ -149,6 +175,38 @@ export const homepageData = {
         {
           imageUrl: "logo-ajtyvit",
           name: "Aj ty v IT",
+        },
+        {
+          imageUrl: "logo-vacuumlabs",
+          name: "Vacuumlabs",
+        },
+        {
+          imageUrl: "logo-campus",
+          name: "Campus",
+        },
+        // {
+        //   imageUrl: "logo-dennik-n",
+        //   name: "Denník N",
+        // },
+        // {
+        //   imageUrl: "logo-sme-blog",
+        //   name: "SME Blog",
+        // },
+        {
+          imageUrl: "logo-slovensko-digital",
+          name: "Slovensko.digital",
+        },
+        {
+          imageUrl: "logo-slovca",
+          name: "Slovca",
+        },
+        {
+          imageUrl: "logo-kinit",
+          name: "Kinit",
+        },
+        {
+          imageUrl: "logo-ey",
+          name: "EY",
         },
       ],
     },
@@ -183,11 +241,83 @@ export const homepageData = {
           imageUrl: "logo-trama",
           name: "Trama",
         },
+        {
+          imageUrl: "logo-26-house",
+          name: "26 House",
+        },
+        {
+          imageUrl: "logo-ayanza",
+          name: "Ayanza",
+        },
+        {
+          imageUrl: "logo-bloomreach",
+          name: "Bloomreach",
+        },
+        {
+          imageUrl: "logo-dingodot",
+          name: "DingoDot",
+        },
+        {
+          imageUrl: "logo-eatster",
+          name: "EatSter",
+        },
+        {
+          imageUrl: "logo-freevision",
+          name: "FreeVision",
+        },
+        {
+          imageUrl: "logo-globsec",
+          name: "Globsec",
+        },
+        {
+          imageUrl: "logo-innovate-slovakia",
+          name: "Innovate Slovakia",
+        },
+        {
+          imageUrl: "logo-kickresume",
+          name: "Kickresume",
+        },
+        {
+          imageUrl: "logo-mobilyze",
+          name: "Mobilyze",
+        },
+        {
+          imageUrl: "logo-o2",
+          name: "O2",
+        },
+        {
+          imageUrl: "logo-rvmagnetics",
+          name: "RV Magnetics",
+        },
+        {
+          imageUrl: "logo-scr",
+          name: "SCR",
+        },
+        {
+          imageUrl: "logo-seak",
+          name: "SEAK",
+        },
+        {
+          imageUrl: "logo-sensoneo",
+          name: "Sensoneo",
+        },
+        {
+          imageUrl: "logo-stylers-cloud",
+          name: "Stylers Cloud",
+        },
+        {
+          imageUrl: "logo-taylor-wessing",
+          name: "Taylor Wessing",
+        },
+        {
+          imageUrl: "logo-wood-company",
+          name: "Wood&Company",
+        },
       ],
     },
   },
   board: {
-    mainTitle: "Správna rada",
+    mainTitle: "Ambasádori projektu",
     mainMembers: [
       {
         imageUrl: "/assets/marian-porvaznik.jpg",
@@ -197,10 +327,28 @@ export const homepageData = {
           "https://www.linkedin.com/in/majo-porvažn%C3%ADk-b3a43952/",
       },
       {
+        imageUrl: "/assets/michal-kardos.jpg",
+        name: "Michal Kardoš",
+        position: "Executive Director, Sapie",
+        linkedInUrl: "https://www.linkedin.com/in/michal-kardos-b9908757/",
+      },
+      {
+        imageUrl: "/assets/maria-bielikova.jpg",
+        name: "Mária Bieliková",
+        position: "CEO, KInIT",
+        linkedInUrl: "https://www.linkedin.com/in/mariabielik/",
+      },
+      {
         imageUrl: "/assets/peter-kolesar.jpg",
         name: "Peter Kolesár",
         position: "Partner, CIVITTA",
         linkedInUrl: "https://www.linkedin.com/in/pkolesar/",
+      },
+      {
+        imageUrl: "/assets/matej-ftacnik.jpg",
+        name: "Matej Ftáčnik",
+        position: "CEO, Vacuumlabs",
+        linkedInUrl: "https://www.linkedin.com/in/ftacnik/",
       },
     ],
     subTitle: "Projektový manažment",
@@ -222,22 +370,16 @@ export const homepageData = {
       raw: "+421910324516",
       pretty: "+421 910 324 516",
     },
-    email: "info@idi.sk",
-    facebookUrl: "#",
-    linkedInUrl: "#",
+    email: "info@zainovativneslovensko.sk",
+    emailLabel: "E-mail: info@zainovativneslovensko.sk",
+    facebookUrl:
+      "https://www.facebook.com/Za-inovat%C3%ADvne-Slovensko-114334164586144",
+    linkedInUrl: "https://www.linkedin.com/company/za-inovativne-slovensko",
     links: [
       {
-        label: "legal notice",
-        url: "#",
+        label: "Privacy policy",
+        url: "/files/privacy_policy.pdf",
         openInNewTab: true,
-      },
-      {
-        label: "privacy policy",
-        url: "#",
-      },
-      {
-        label: "contact",
-        url: "#",
       },
     ],
   },
