@@ -74,14 +74,14 @@ export const homepageData = {
       // },
       {
         text: "Ako dobehneme svet v inováciách?",
-        buttonText: "Zobraziť článok",
+        buttonText: "Zobraziť",
         buttonURL: "/files/content.pdf",
         imageURL: "/assets/news-item-2.jpg",
         isNewsArticle: true,
       },
       // {
       //   text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
-      //   buttonText: "Zobraziť článok",
+      //   buttonText: "Zobraziť",
       //   buttonURL: "#",
       //   imageURL: "/assets/news-item-2.jpg",
       //   isNewsArticle: true,
