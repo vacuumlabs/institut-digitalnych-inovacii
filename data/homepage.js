@@ -103,7 +103,7 @@ export const homepageData = {
     aboutUtItems: [
       {
         icon: "/assets/icon-about-1.svg",
-        text: "Sme skupina podnikateľov a inovátorov, ktorým záleží na budúcnosti Slovenska v dobe digitálnej.",
+        text: "Sme skupina podnikateľov, výskumníkov a inovátorov, ktorým záleží na budúcnosti Slovenska v dobe digitálnej.",
       },
       {
         icon: "/assets/icon-about-2.svg",
@@ -111,7 +111,7 @@ export const homepageData = {
       },
       {
         icon: "/assets/icon-about-3.svg",
-        text: "Ak chceme ostať konkurencieschopní, nemôžeme strácať čas. Nutne potrebujeme nový ekonomický model na základe inovácií a vysokej pridanej hodnoty. Veríme, že tieto zmeny pomôžu modernizovať aj tradičnejšie odvetvia.",
+        text: "Ak chceme ostať konkurencieschopní, nemôžeme strácať čas. Nutne potrebujeme nový ekonomický model na základe výskumu, inovácií a vysokej pridanej hodnoty. Veríme, že tieto zmeny pomôžu modernizovať aj tradičnejšie odvetvia.",
       },
     ],
     polygonTitle: "Sme hlasom digitálnej transformácie Slovenska",
