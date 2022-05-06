@@ -79,6 +79,13 @@ export const homepageData = {
         imageURL: "/assets/news-item-2.jpg",
         isNewsArticle: true,
       },
+      {
+        text: "Štartujeme s 50+ inovatívnymi firmami",
+        buttonText: "Zobraziť",
+        buttonURL: "/files/50_inovativnych_firiem.pdf",
+        imageURL: "/assets/news-item-3.jpg",
+        isNewsArticle: true,
+      },
       // {
       //   text: "Konzultácie Národnej stratégie pre výskum, vývoj a inovácie",
       //   buttonText: "Zobraziť",
