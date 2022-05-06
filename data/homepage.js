@@ -80,7 +80,7 @@ export const homepageData = {
         isNewsArticle: true,
       },
       {
-        text: "Čo zmeniť, aby sme svet dobehli v inováciách?",
+        text: "Štartujeme s 50+ inovatívnymi firmami",
         buttonText: "Zobraziť",
         buttonURL: "/files/50_inovativnych_firiem.pdf",
         imageURL: "/assets/news-item-3.jpg",
