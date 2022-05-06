@@ -1,14 +1,14 @@
 # Inštitút digitálnych inovácií
 
-This repo contains the website for Inštitút digitálnych inovácií (IDI).
+This repo contains the website for Inštitút digitálnych inovácií (IDI) also known as Za inovatívne Slovensko.
 
 ## Techstack
-
-### Overview
 
 Next.js + tailwindcss
 
 ## Deployment
+
+The live website is deployed at [zainovativneslovensko.sk](https://zainovativneslovensko.sk).
 
 ### Preview
 
