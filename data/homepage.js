@@ -210,10 +210,10 @@ export const homepageData = {
           imageUrl: "logo-slovensko-digital",
           name: "Slovensko.digital",
         },
-        {
-          imageUrl: "logo-slovca",
-          name: "Slovca",
-        },
+        // {
+        //   imageUrl: "logo-slovca",
+        //   name: "Slovca",
+        // },
         {
           imageUrl: "logo-kinit",
           name: "Kinit",
