@@ -172,7 +172,7 @@ export const homepageData = {
         {
           imageUrl: "logo-ftrnw",
           name: "FRTNW",
-          url: "",
+          url: "https://ftrnw.org/",
         },
         {
           imageUrl: "logo-hubhub",
