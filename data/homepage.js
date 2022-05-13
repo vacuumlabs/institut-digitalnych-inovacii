@@ -327,6 +327,70 @@ export const homepageData = {
           imageUrl: "logo-wood-company",
           name: "Wood&Company",
         },
+        {
+          imageUrl: "logo-amcham",
+          name: "AmCham",
+        },
+        {
+          imageUrl: "logo-anasoft",
+          name: "Anasoft",
+        },
+        {
+          imageUrl: "logo-axepto",
+          name: "Axepto",
+        },
+        {
+          imageUrl: "logo-basta-digital",
+          name: "Basta.digital",
+        },
+        {
+          imageUrl: "logo-hopin",
+          name: "Hopin",
+        },
+        {
+          imageUrl: "logo-hyperia",
+          name: "Hyperia",
+        },
+        {
+          imageUrl: "logo-infotech",
+          name: "Infotech",
+        },
+        {
+          imageUrl: "logo-intesoft",
+          name: "Intesoft",
+        },
+        {
+          imageUrl: "logo-it",
+          name: "it",
+        },
+        {
+          imageUrl: "logo-photoneo",
+          name: "Photoneo",
+        },
+        {
+          imageUrl: "logo-seesame",
+          name: "Seesame",
+        },
+        {
+          imageUrl: "logo-solargis",
+          name: "Solargis",
+        },
+        {
+          imageUrl: "logo-ssic",
+          name: "SSIC",
+        },
+        {
+          imageUrl: "logo-superfaktura",
+          name: "SuperFaktura",
+        },
+        {
+          imageUrl: "logo-svop",
+          name: "SVOP",
+        },
+        {
+          imageUrl: "logo-techband",
+          name: "Techband",
+        },
       ],
     },
   },
