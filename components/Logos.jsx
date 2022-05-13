@@ -27,18 +27,32 @@ const Logos = ({ logos, isExpandable = false }) => {
   return (
     <ShadowTile>
       <div className="grid grid-cols-2 items-center justify-items-center gap-10 p-6 sm:p-10 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7">
-        {logos.map((logo, i) => (
-          <img
-            src={`/assets/${logo.imageUrl}.png`}
-            key={logo.imageUrl}
-            alt={`Logo ${logo.name}`}
-            className={classNames(
-              "max-h-[60px]",
-              "max-w-full",
-              isExpandable && !expanded && getVisibilityClassnames(i)
-            )}
-          />
-        ))}
+        {logos.map((logo, i) => {
+          const imageNode = (
+            <img
+              src={`/assets/${logo.imageUrl}.png`}
+              key={logo.imageUrl}
+              alt={`Logo ${logo.name}`}
+              className="max-h-[60px] max-w-full"
+            />
+          );
+
+          return (
+            <div
+              className={classNames(
+                isExpandable && !expanded && getVisibilityClassnames(i)
+              )}
+            >
+              {logo.url ? (
+                <a href={logo.url} target="_blank">
+                  {imageNode}
+                </a>
+              ) : (
+                imageNode
+              )}
+            </div>
+          );
+        })}
       </div>
       {isExpandable && (
         <div className="font-nasa text-brand text-text-small flex items-center justify-center pb-4 uppercase md:pb-6">
