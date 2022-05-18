@@ -28,7 +28,10 @@ const Members = () => {
             largeFontSizeLg={false}
           />
           <div className="mt-4">
-            <Logos logos={homepageData.members.otherMembers.logos} />
+            <Logos
+              logos={homepageData.members.otherMembers.logos}
+              isExpandable
+            />
           </div>
         </div>
       </div>

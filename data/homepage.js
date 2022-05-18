@@ -137,90 +137,109 @@ export const homepageData = {
         {
           imageUrl: "logo-vacuumgroup",
           name: "Vacuumgroup",
+          url: "https://vacuumgroup.com",
         },
         {
           imageUrl: "logo-civitta",
           name: "Civitta",
+          url: "https://civitta.com",
         },
         {
           imageUrl: "logo-sapie",
           name: "Sapie",
+          url: "https://sapie.sk",
         },
         {
           imageUrl: "logo-fintechclub",
           name: "FintechHubSlovakia",
+          url: "https://www.fintechhubeurope.com",
         },
         {
           imageUrl: "logo-thespot",
           name: "The Spot by vacuum",
+          url: "https://thespot.sk",
         },
         {
           imageUrl: "logo-perrytalents",
           name: "PerryTalens",
+          url: "https://perrytalents.com",
         },
         {
           imageUrl: "logo-slovakamericanfoundation",
           name: "Slovak American Foundation",
+          url: "https://www.slovakamericanfoundation.org",
         },
         {
           imageUrl: "logo-ftrnw",
           name: "FRTNW",
+          url: "https://ftrnw.org/",
         },
         {
           imageUrl: "logo-hubhub",
           name: "HubHub",
+          url: "https://www.hubhub.com/en/",
         },
         {
           imageUrl: "logo-neulogy",
           name: "Neulogy",
+          url: "https://www.neulogy.vc",
         },
         {
           imageUrl: "logo-sudoacademy",
           name: "SudoAcademy",
+          url: "https://sudoacademy.io",
         },
         {
           imageUrl: "logo-gamedays",
           name: "GameDays",
+          url: "https://gamedays.sk",
         },
         {
           imageUrl: "logo-visionventures",
           name: "Vision Ventures",
+          url: "https://www.visionventures.vc",
         },
         {
           imageUrl: "logo-ajtyvit",
           name: "Aj ty v IT",
+          url: "https://ajtyvit.sk/?lang=en",
         },
         {
           imageUrl: "logo-vacuumlabs",
           name: "Vacuumlabs",
+          url: "https://vacuumlabs.com",
         },
         {
           imageUrl: "logo-campus",
           name: "Campus",
+          url: "https://www.campus-cowork.com",
         },
         // {
         //   imageUrl: "logo-dennik-n",
         //   name: "Denník N",
-        // },
+        //},
         // {
         //   imageUrl: "logo-sme-blog",
         //   name: "SME Blog",
-        // },
+        //},
         {
           imageUrl: "logo-slovensko-digital",
           name: "Slovensko.digital",
+          url: "https://slovensko.digital",
         },
-        {
-          imageUrl: "logo-slovca",
-          name: "Slovca",
-        },
+        // {
+        //   imageUrl: "logo-slovca",
+        //   name: "Slovca",
+        //},
         {
           imageUrl: "logo-kinit",
           name: "Kinit",
+          url: "https://kinit.sk",
         },
         {
           imageUrl: "logo-ey",
           name: "EY",
+          url: "https://www.ey.com/en_us",
         },
       ],
     },
@@ -228,104 +247,209 @@ export const homepageData = {
       title: "Ďalší členovia",
       logos: [
         {
-          imageUrl: "logo-sudolabs",
-          name: "Sudolabs",
+          imageUrl: "logo-anasoft",
+          name: "Anasoft",
+          url: "https://www.anasoft.com/sk/",
+        },
+        {
+          imageUrl: "logo-amcham",
+          name: "AmCham",
+          url: "https://amcham.sk",
         },
         {
           imageUrl: "logo-websupport",
           name: "Websupport",
+          url: "https://www.websupport.sk",
         },
         {
-          imageUrl: "logo-grindsone",
-          name: "GrindStone",
+          imageUrl: "logo-seesame",
+          name: "Seesame",
+          url: "https://www.seesame.com/en/",
         },
         {
-          imageUrl: "logo-fumbi",
-          name: "Fumbi",
-        },
-        {
-          imageUrl: "logo-superscale",
-          name: "Superscale",
-        },
-        {
-          imageUrl: "logo-sparring",
-          name: "Sparring",
-        },
-        {
-          imageUrl: "logo-trama",
-          name: "Trama",
-        },
-        {
-          imageUrl: "logo-26-house",
-          name: "26 House",
-        },
-        {
-          imageUrl: "logo-ayanza",
-          name: "Ayanza",
-        },
-        {
-          imageUrl: "logo-bloomreach",
-          name: "Bloomreach",
-        },
-        {
-          imageUrl: "logo-dingodot",
-          name: "DingoDot",
-        },
-        {
-          imageUrl: "logo-eatster",
-          name: "EatSter",
-        },
-        {
-          imageUrl: "logo-freevision",
-          name: "FreeVision",
-        },
-        {
-          imageUrl: "logo-globsec",
-          name: "Globsec",
-        },
-        {
-          imageUrl: "logo-innovate-slovakia",
-          name: "Innovate Slovakia",
-        },
-        {
-          imageUrl: "logo-kickresume",
-          name: "Kickresume",
-        },
-        {
-          imageUrl: "logo-mobilyze",
-          name: "Mobilyze",
-        },
-        {
-          imageUrl: "logo-o2",
-          name: "O2",
-        },
-        {
-          imageUrl: "logo-rvmagnetics",
-          name: "RV Magnetics",
-        },
-        {
-          imageUrl: "logo-scr",
-          name: "SCR",
-        },
-        {
-          imageUrl: "logo-seak",
-          name: "SEAK",
-        },
-        {
-          imageUrl: "logo-sensoneo",
-          name: "Sensoneo",
-        },
-        {
-          imageUrl: "logo-stylers-cloud",
-          name: "Stylers Cloud",
+          imageUrl: "logo-superfaktura",
+          name: "SuperFaktura",
+          url: "https://www.superfaktura.sk/en/",
         },
         {
           imageUrl: "logo-taylor-wessing",
           name: "Taylor Wessing",
+          url: "https://www.taylorwessing.com",
+        },
+        {
+          imageUrl: "logo-o2",
+          name: "O2",
+          url: "https://o2.sk",
+        },
+        {
+          imageUrl: "logo-kickresume",
+          name: "Kickresume",
+          url: "https://www.kickresume.com/en/",
+        },
+        {
+          imageUrl: "logo-photoneo",
+          name: "Photoneo",
+          url: "https://www.photoneo.com",
+        },
+        {
+          imageUrl: "logo-basta-digital",
+          name: "Basta.digital",
+          url: "https://bastadigital.com/en/",
+        },
+        {
+          imageUrl: "logo-sudolabs",
+          name: "Sudolabs",
+          url: "https://sudolabs.com",
+        },
+        {
+          imageUrl: "logo-grindsone",
+          name: "GrindStone",
+          url: "https://www.grindstone.sk",
+        },
+        {
+          imageUrl: "logo-fumbi",
+          name: "Fumbi",
+          url: "https://fumbi.network/sk/",
+        },
+        {
+          imageUrl: "logo-superscale",
+          name: "Superscale",
+          url: "https://superscale.com",
+        },
+        {
+          imageUrl: "logo-sparring",
+          name: "Sparring",
+          url: "https://sparring.io",
+        },
+        {
+          imageUrl: "logo-trama",
+          name: "Trama",
+          url: "https://www.tramatm.com",
+        },
+        {
+          imageUrl: "logo-26-house",
+          name: "26 House",
+          url: "https://www.26house.com",
+        },
+        {
+          imageUrl: "logo-ayanza",
+          name: "Ayanza",
+          url: "https://ayanza.com",
+        },
+        {
+          imageUrl: "logo-bloomreach",
+          name: "Bloomreach",
+          url: "https://www.bloomreach.com/en",
+        },
+        {
+          imageUrl: "logo-dingodot",
+          name: "DingoDot",
+          url: "https://dingodot.com",
+        },
+        {
+          imageUrl: "logo-eatster",
+          name: "EatSter",
+          url: "https://eatster.app",
+        },
+        {
+          imageUrl: "logo-freevision",
+          name: "FreeVision",
+          url: "https://www.freevision.sk",
+        },
+        {
+          imageUrl: "logo-globsec",
+          name: "Globsec",
+          url: "https://www.globsec.org",
+        },
+        {
+          imageUrl: "logo-innovate-slovakia",
+          name: "Innovate Slovakia",
+          url: "https://innovateslovakia.sk/en/",
+        },
+        {
+          imageUrl: "logo-mobilyze",
+          name: "Mobilyze",
+          url: "https://mobilyze.it",
+        },
+        {
+          imageUrl: "logo-rvmagnetics",
+          name: "RV Magnetics",
+          url: "https://www.rvmagnetics.com",
+        },
+        {
+          imageUrl: "logo-scr",
+          name: "SCR",
+          url: "https://www.scr.sk",
+        },
+        {
+          imageUrl: "logo-seak",
+          name: "SEAK",
+          url: "http://www.seakenergetics.com/sk",
+        },
+        {
+          imageUrl: "logo-sensoneo",
+          name: "Sensoneo",
+          url: "https://sensoneo.com",
+        },
+        {
+          imageUrl: "logo-stylers-cloud",
+          name: "Stylers Cloud",
+          url: "https://www.stylers.cloud",
         },
         {
           imageUrl: "logo-wood-company",
           name: "Wood&Company",
+          url: "https://www.wood.cz",
+        },
+        {
+          imageUrl: "logo-axepto",
+          name: "Axepto",
+          url: "https://axepto.com",
+        },
+        {
+          imageUrl: "logo-hopin",
+          name: "Hopin",
+          url: "https://hopintaxi.com/en/",
+        },
+        {
+          imageUrl: "logo-hyperia",
+          name: "Hyperia",
+          url: "https://www.hyperia.sk",
+        },
+        {
+          imageUrl: "logo-infotech",
+          name: "Infotech",
+          url: "https://www.infotech.sk",
+        },
+        {
+          imageUrl: "logo-intesoft",
+          name: "Intesoft",
+          url: "http://www.intesoft.eu",
+        },
+        {
+          imageUrl: "logo-it",
+          name: "Instea",
+          url: "https://instea.sk",
+        },
+        {
+          imageUrl: "logo-solargis",
+          name: "Solargis",
+          url: "https://solargis.com",
+        },
+        {
+          imageUrl: "logo-ssic",
+          name: "SSIC",
+          url: "https://www.ssic.sk",
+        },
+        {
+          imageUrl: "logo-svop",
+          name: "SVOP",
+          url: "https://www.svop.sk",
+        },
+        {
+          imageUrl: "logo-techband",
+          name: "Techband",
+          url: "https://techband.io",
         },
       ],
     },
