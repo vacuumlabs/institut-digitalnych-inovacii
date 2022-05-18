@@ -247,14 +247,59 @@ export const homepageData = {
       title: "Ďalší členovia",
       logos: [
         {
-          imageUrl: "logo-sudolabs",
-          name: "Sudolabs",
-          url: "https://sudolabs.com",
+          imageUrl: "logo-anasoft",
+          name: "Anasoft",
+          url: "https://www.anasoft.com/sk/",
+        },
+        {
+          imageUrl: "logo-amcham",
+          name: "AmCham",
+          url: "https://amcham.sk",
         },
         {
           imageUrl: "logo-websupport",
           name: "Websupport",
           url: "https://www.websupport.sk",
+        },
+        {
+          imageUrl: "logo-seesame",
+          name: "Seesame",
+          url: "https://www.seesame.com/en/",
+        },
+        {
+          imageUrl: "logo-superfaktura",
+          name: "SuperFaktura",
+          url: "https://www.superfaktura.sk/en/",
+        },
+        {
+          imageUrl: "logo-taylor-wessing",
+          name: "Taylor Wessing",
+          url: "https://www.taylorwessing.com",
+        },
+        {
+          imageUrl: "logo-o2",
+          name: "O2",
+          url: "https://o2.sk",
+        },
+        {
+          imageUrl: "logo-kickresume",
+          name: "Kickresume",
+          url: "https://www.kickresume.com/en/",
+        },
+        {
+          imageUrl: "logo-photoneo",
+          name: "Photoneo",
+          url: "https://www.photoneo.com",
+        },
+        {
+          imageUrl: "logo-basta-digital",
+          name: "Basta.digital",
+          url: "https://bastadigital.com/en/",
+        },
+        {
+          imageUrl: "logo-sudolabs",
+          name: "Sudolabs",
+          url: "https://sudolabs.com",
         },
         {
           imageUrl: "logo-grindsone",
@@ -322,19 +367,9 @@ export const homepageData = {
           url: "https://innovateslovakia.sk/en/",
         },
         {
-          imageUrl: "logo-kickresume",
-          name: "Kickresume",
-          url: "https://www.kickresume.com/en/",
-        },
-        {
           imageUrl: "logo-mobilyze",
           name: "Mobilyze",
           url: "https://mobilyze.it",
-        },
-        {
-          imageUrl: "logo-o2",
-          name: "O2",
-          url: "https://o2.sk",
         },
         {
           imageUrl: "logo-rvmagnetics",
@@ -362,34 +397,14 @@ export const homepageData = {
           url: "https://www.stylers.cloud",
         },
         {
-          imageUrl: "logo-taylor-wessing",
-          name: "Taylor Wessing",
-          url: "https://www.taylorwessing.com",
-        },
-        {
           imageUrl: "logo-wood-company",
           name: "Wood&Company",
           url: "https://www.wood.cz",
         },
         {
-          imageUrl: "logo-amcham",
-          name: "AmCham",
-          url: "https://amcham.sk",
-        },
-        {
-          imageUrl: "logo-anasoft",
-          name: "Anasoft",
-          url: "https://www.anasoft.com/sk/",
-        },
-        {
           imageUrl: "logo-axepto",
           name: "Axepto",
           url: "https://axepto.com",
-        },
-        {
-          imageUrl: "logo-basta-digital",
-          name: "Basta.digital",
-          url: "https://bastadigital.com/en/",
         },
         {
           imageUrl: "logo-hopin",
@@ -417,16 +432,6 @@ export const homepageData = {
           url: "https://instea.sk",
         },
         {
-          imageUrl: "logo-photoneo",
-          name: "Photoneo",
-          url: "https://www.photoneo.com",
-        },
-        {
-          imageUrl: "logo-seesame",
-          name: "Seesame",
-          url: "https://www.seesame.com/en/",
-        },
-        {
           imageUrl: "logo-solargis",
           name: "Solargis",
           url: "https://solargis.com",
@@ -435,11 +440,6 @@ export const homepageData = {
           imageUrl: "logo-ssic",
           name: "SSIC",
           url: "https://www.ssic.sk",
-        },
-        {
-          imageUrl: "logo-superfaktura",
-          name: "SuperFaktura",
-          url: "https://www.superfaktura.sk/en/",
         },
         {
           imageUrl: "logo-svop",
