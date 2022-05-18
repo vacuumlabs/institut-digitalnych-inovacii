@@ -14,7 +14,7 @@ const XL_VISIBLE_LOGOS = 14;
 // output stylesheet if we used literals
 function getVisibilityClassnames(i) {
   return [
-    i < SM_VISIBLE_LOGOS ? "sm:block" : "sm:hidden",
+    i < SM_VISIBLE_LOGOS ? "block sm:block" : "hidden sm:hidden",
     i < MD_VISIBLE_LOGOS ? "md:block" : "md:hidden",
     i < LG_VISIBLE_LOGOS ? "lg:block" : "lg:hidden",
     i < XL_VISIBLE_LOGOS ? "xl:block" : "xl:hidden",
