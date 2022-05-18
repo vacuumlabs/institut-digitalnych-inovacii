@@ -83,14 +83,14 @@ export const homepageData = {
         text: "Štartujeme s 50+ inovatívnymi firmami",
         buttonText: "Zobraziť",
         buttonURL: "/files/50_inovativnych_firiem.pdf",
-        imageURL: "/assets/news-item-3.jpg",
+        imageURL: "/assets/news-startujeme-zis.jpg",
         isNewsArticle: true,
       },
       {
         text: "22 opatrení pre digitálnu budúcnosť Slovenska",
         buttonText: "Zobraziť",
         buttonURL: "/files/22_opatreni.pdf",
-        imageURL: "/assets/news-item-3.jpg",
+        imageURL: "/assets/news-22-opatreni.jpg",
         isNewsArticle: true,
       },
       // {
