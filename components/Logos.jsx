@@ -39,6 +39,7 @@ const Logos = ({ logos, isExpandable = false }) => {
 
           return (
             <div
+              key={i}
               className={classNames(
                 isExpandable && !expanded && getVisibilityClassnames(i)
               )}
