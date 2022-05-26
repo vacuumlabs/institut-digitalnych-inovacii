@@ -81,13 +81,13 @@ export const homepageData = {
         imageURL: "/assets/news-startujeme-zis.jpg",
         isNewsArticle: true,
       },
-      // {
-      //   text: "22 opatrení pre digitálnu budúcnosť Slovenska",
-      //   buttonText: "Zobraziť",
-      //   buttonURL: "/files/22_opatreni.pdf",
-      //   imageURL: "/assets/news-22-opatreni.jpg",
-      //   isNewsArticle: true,
-      // },
+      {
+        text: "22 opatrení pre digitálnu budúcnosť Slovenska",
+        buttonText: "Zobraziť",
+        buttonURL: "/files/22_opatreni.pdf",
+        imageURL: "/assets/news-22-opatreni.jpg",
+        isNewsArticle: true,
+      },
     ],
   },
   aboutUs: {
