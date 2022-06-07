@@ -192,23 +192,11 @@ export const homepageData = {
           name: "Campus",
           url: "https://www.campus-cowork.com",
         },
-        // {
-        //   imageUrl: "logo-dennik-n",
-        //   name: "Denník N",
-        //},
-        // {
-        //   imageUrl: "logo-sme-blog",
-        //   name: "SME Blog",
-        //},
         {
           imageUrl: "logo-slovensko-digital",
           name: "Slovensko.digital",
           url: "https://slovensko.digital",
         },
-        // {
-        //   imageUrl: "logo-slovca",
-        //   name: "Slovca",
-        //},
         {
           imageUrl: "logo-kinit",
           name: "Kinit",
@@ -428,6 +416,36 @@ export const homepageData = {
           imageUrl: "logo-techband",
           name: "Techband",
           url: "https://techband.io",
+        },
+        {
+          imageUrl: "logo-gerulata",
+          name: "Gerulata",
+          url: "https://www.gerulata.com",
+        },
+        {
+          imageUrl: "logo-inly",
+          name: "Inly",
+          url: "https://www.inly.sk",
+        },
+        {
+          imageUrl: "logo-inovato",
+          name: "Inovato",
+          url: "https://inova.to",
+        },
+        {
+          imageUrl: "logo-prosent",
+          name: "Prosent",
+          url: "https://prosent.io",
+        },
+        {
+          imageUrl: "logo-slsp",
+          name: "Slovenská sporiteľna",
+          url: "https://www.slsp.sk",
+        },
+        {
+          imageUrl: "logo-uvp-technicom",
+          name: "UVP Technicom",
+          url: "https://uvptechnicom.sk",
         },
       ],
     },
