@@ -447,6 +447,21 @@ export const homepageData = {
           name: "UVP Technicom",
           url: "https://uvptechnicom.sk",
         },
+        {
+          imageUrl: "logo-barney",
+          name: "Barney Studio",
+          url: "https://barneystudio.com",
+        },
+        {
+          imageUrl: "logo-lifbee",
+          name: "Lifbee",
+          url: "https://www.lifbee.com",
+        },
+        {
+          imageUrl: "logo-titans",
+          name: "Titans Freelancers",
+          url: "https://www.titans.sk/en/",
+        },
       ],
     },
   },
