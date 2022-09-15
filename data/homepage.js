@@ -462,6 +462,26 @@ export const homepageData = {
           name: "Titans Freelancers",
           url: "https://www.titans.sk/en/",
         },
+        {
+          imageUrl: "logo-mmlaw",
+          name: "Majerník & Miháliková",
+          url: "https://mmlaw.sk",
+        },
+        {
+          imageUrl: "logo-szk",
+          name: "Slovenská Živnostenská Komora",
+          url: "https://www.szk.sk",
+        },
+        {
+          imageUrl: "logo-capila",
+          name: "Capila",
+          url: "https://www.capila.io",
+        },
+        {
+          imageUrl: "logo-ayming",
+          name: "Ayming",
+          url: "https://www.ayming.sk",
+        },
       ],
     },
   },
