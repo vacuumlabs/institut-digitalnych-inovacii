@@ -482,6 +482,11 @@ export const homepageData = {
           name: "Ayming",
           url: "https://www.ayming.sk",
         },
+        {
+          imageUrl: "logo-sgda",
+          name: "Slovak Game Developers Association",
+          url: "https://www.sgda.sk",
+        },
       ],
     },
   },
