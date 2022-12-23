@@ -10,10 +10,6 @@ Next.js + tailwindcss
 
 The live website is deployed at [zainovativneslovensko.sk](https://zainovativneslovensko.sk).
 
-### Preview
-
-Each pull request is automatically deployed as a preview via Vercel.
-
 ### Production
 
 Every pull request merged to `master` is **automatically** deployed to the production website.
