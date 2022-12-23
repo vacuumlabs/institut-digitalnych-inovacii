@@ -35,7 +35,7 @@ jobs:
 
       - name: Build and Push docker image
         run: |-
-          DOCKER_IMAGE_NAME="${{ secrets.REGION }}-docker.pkg.dev/${{ secrets.PROJECT_ID_ARTIFACT_REGISTRY }}/${{ secrets.PROJECT_ID_CLOUD_RUN }}/${{ secrets.PROJECT_ID_CLOUD_RUN }}/${{ secrets.SERVICE }}"
+          DOCKER_IMAGE_NAME="${{ secrets.REGION }}-docker.pkg.dev/${{ secrets.PROJECT_ID_ARTIFACT_REGISTRY }}/${{ secrets.PROJECT_ID_CLOUD_RUN }}/${{ secrets.SERVICE }}"
           docker build -t "$DOCKER_IMAGE_NAME:${{ github.sha }}" -t "$DOCKER_IMAGE_NAME:latest" ./
           docker push "$DOCKER_IMAGE_NAME" --all-tags
 
